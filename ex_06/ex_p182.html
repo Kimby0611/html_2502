@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼 관련 태그들 연습문제</title>
+
+    <style>
+        div {
+            border: 2px solid lightblue;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+        }
+
+        .reser label {
+            float: left;
+            width: 60px;
+        }
+        .reser li {
+            height: 50px;
+        }
+        .ques2 {
+            padding-right:5%;
+            padding-left:5% ;
+        }   
+        .ques2 fieldset {
+            margin-bottom: 10px;
+            border: none;
+        }
+        .ques2 li {
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Q1 예약 정보</h2>
+        <form class="reser">
+            <ul>
+                <li>
+                    <label for="r-name">이  름</label>
+                    <input type="text" id="r-name">
+                </li>
+                <li>
+                    <label for="r-phone">휴대폰</label>
+                    <input type="tel" id="r-phone">
+                </li>
+                <li>
+                    <label for="r-email">이메일</label>
+                    <input type="email" id="r-email">
+                </li>
+                <input type="button" value="예약하기">
+            </ul>
+        </form>
+    </div>
+
+    <div class="ques2">
+        <h2>Q2 프런트엔드 개발자 지원서</h2>
+
+        <p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.
+        </p>
+
+        <hr>
+        
+        <form>
+            <fieldset>
+                <h4>개인 정보</h4>
+                <ul>
+                    <li>
+                        <label>이름 <input type="text" id="name"
+                            placeholder="공백 없이 입력하세요"></label>
+                    </li>
+                    <li>
+                        <label>연락처
+                            <input type="tel" id="call">
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            
+            <fieldset>
+                <h4>지원 분야</h4>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="radio" name="field" id="pub">웹 퍼블리싱
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="field" id="app">웹 애플리케이션 개발
+                        </label>
+                    </li> 
+                    <li>  
+                        <label>
+                            <input type="radio" name="field" id="new">개발 환경 개선
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <h4>지원 동기</h4>
+                <textarea name="content" id="content" cols="60" rows="5"
+                placeholder="본사 지원 동기를 간략히 써 주세요"></textarea>
+                <br>
+            </fieldset>
+
+            <input type="submit" value="접수하기">
+            <input type="reset" value="다시 쓰기">
+        </form>
+    </div>
+</body>
+</html>
