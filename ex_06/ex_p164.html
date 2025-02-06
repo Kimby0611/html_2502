@@ -4,8 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        div {
+            border: 2px solid lightblue;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        .ordered legend {
+            color: darkviolet;
+        }
+        .ordered ul {
+            list-style: none;
+        }
+        .ordered label.title {
+            font-weight: bold;
+        }
+        .btn {
+            border: none;
+            text-align: center;
+        }
+        .ordered  {
+            
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        <h2>상품 주문서</h2>
+        <form class="ordered">
+            <fieldset>
+                <legend>개인 정보</legend>
+                <ul>
+                    <li>
+                        <label class="title">이름</label>
+                        <input type="text" placeholder="여백없이 입력" size="20">
+                    </li>
+                    <li>
+                        <label class="title">연락처</label>
+                        <input type="text" placeholder="연락가능한 번호" size="20">
+                    </li>
+                </ul>
+            </fieldset>
+            
+            <fieldset>
+                <legend>배송지 정보</legend>
+                <ul>
+                    <li>
+                        <label class="title">주소</label>
+                        <input type="text" size="40">
+                    </li>
+                    <li>
+                        <label class="title">전화번호</label>
+                        <input type="text" size="20">
+                    </li>
+                    <li>
+                        <label class="title">메모</label>
+                        <textarea cols="40" rows="3"></textarea>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>주문 정보</legend>
+                <ul>
+                    <li>
+                        <label><input type="checkbox">과테말라 안티구아(100g)</label>
+                        <label><input type="number" value="0" min="0" max="5">개</label>
+                    </li>
+                    <li>
+                        <label><input type="checkbox">인도네시아 만델링(100g)</label>
+                        <label><input type="number" value="0" min="0" max="5">개</label>
+                    </li>
+                    <li>
+                        <label><input type="checkbox">탐라는도다(블렌딩)(100g)</label>
+                        <label><input type="number" value="0" min="0" max="5">개</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <div class="btn">
+                <input type="submit" value="주문하기">
+                <input type="reset" value="다시 작성">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
