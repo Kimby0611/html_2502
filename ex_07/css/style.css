@@ -1,0 +1,43 @@
+section {
+    border: 2px solid lightsalmon;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.div {
+    background-color: #FFF4A3;
+}
+
+.div2 {
+    background-color: #FFF4A3;
+    width: 300px;
+    margin: auto;
+}
+
+.mycontainer {
+    width:100%;
+    overflow:auto;
+}
+
+.mycontainer > div {
+    width:33%;  
+    float:left;
+}
+
+.inline {
+    width: 30%;
+    display: inline-block;
+}
+
+.mycontainer2 {
+    display: flex;
+}
+
+.mycontainer2 > div {
+    width:33%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
