@@ -41,3 +41,83 @@ section {
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
+
+/* background css */
+
+.back_prac {
+    border: 3px solid black;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.back1 {
+    background-color: lightblue;
+}
+
+.back2 > h1 {
+    background-color: green;
+}
+
+.back2 > div {
+    background-color: lightblue;
+}
+
+.back2 > div > p {
+    background-color: yellow;
+}
+
+.back3 > div {
+    background-color: green;
+}
+
+.back3 > div.first {
+    background: rgb(0, 128, 0, 0.1);
+}
+
+.back3 > div.second {
+    background: rgb(0, 128, 0, 0.3);
+}
+
+.back3 > div.third {
+    background: rgb(0, 128, 0, 0.6);
+}
+
+.img1 {
+    background-image: url(https://www.w3schools.com/css/paper.gif);
+}
+
+.img2 {
+    background-image: url(https://www.w3schools.com/css/bgdesert.jpg);
+}
+
+.img3 > p {
+    background-image: url(https://www.w3schools.com/css/paper.gif);
+}
+
+.repeat {
+    background-image: url(https://www.w3schools.com/css/gradient_bg.png);
+    height: 30vh;
+}
+
+.repeat2 {
+    height: 30vh;
+    background-image: url(https://www.w3schools.com/css/gradient_bg.png);
+    background-repeat: repeat-x;
+}
+
+.repeat3 {
+    background-image: url(https://www.w3schools.com/css/img_tree.png);
+    background-repeat: no-repeat;
+}
+
+.repeat4 {
+    background-image: url(https://www.w3schools.com/css/img_tree.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+}
+
+.attach {
+    background-color: red;
+}
