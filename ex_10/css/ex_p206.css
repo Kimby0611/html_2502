@@ -1,0 +1,13 @@
+div {
+    padding: 15px;
+    border: 2px solid lightseagreen;
+    margin-bottom: 5px;
+}
+
+body {
+    color: blue;
+}
+
+h2 {
+    color: brown !important;
+}
