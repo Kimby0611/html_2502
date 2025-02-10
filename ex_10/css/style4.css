@@ -1,0 +1,45 @@
+div {
+    border: 3px solid lightblue;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.div1 > h2 {
+    margin:  0 0 50px 0;
+}
+
+.div1 > h3 {
+    margin: 20px 0 0 0;
+}
+
+.div2 > div {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.div3 > div {
+    border: 1px solid black;
+    padding: 25px 50px;
+    background-color: lightblue;
+}
+
+.div4 > div {
+    border: 1px solid black;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+.div5 > div.ex1 {
+    width:300px;
+    background-color: yellow;
+}
+
+.div5 > div.ex2 {
+    width: 300px;
+    padding: 25px;
+    background-color: lightblue;
+}

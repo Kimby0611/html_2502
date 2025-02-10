@@ -46,3 +46,19 @@ p.sideBorder {
 p.doubBorder {
     border-style: dotted solid;
 }
+
+p.dif1 {
+    border-style: dotted solid double dashed;
+}
+
+p.dif2 {
+    border-style: dotted solid double;
+}
+
+p.dif3 {
+    border-style: dotted solid;
+}
+
+p.dif4 {
+    border-style: dotted;
+}
