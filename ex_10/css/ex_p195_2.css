@@ -13,12 +13,20 @@ section {
     margin-left: 20px;
 }
 
-.sec2> * {
-    margin: 20px auto;
-}
-
 .bluetext {
     color: blue;
+}
+
+.sec4 > h2.accent {
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+}
+
+.sec5 > h2.accent {
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
 }
 
 .browntext {
@@ -29,18 +37,22 @@ section {
     font-weight: bold;
 }
 
-.container {
-    width: 600px;
-    padding: 15px;
-    border: 1px solid gray;
-}
-
 .container > h2.accent {
     background-color: #222;
     color: #fff;
     padding: 5px;
 }
 
+.container {
+    width: 600px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
 .underline {
     text-decoration: underline;
+}
+
+.sec6 > * {
+    margin: 20px auto;
 }
