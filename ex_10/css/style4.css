@@ -43,3 +43,15 @@ div {
     padding: 25px;
     background-color: lightblue;
 }
+
+.div6 > div.ex1 {
+    width: 300px;
+    background-color: yellow;
+}
+
+.div6 > div.ex2 {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: lightblue;
+}

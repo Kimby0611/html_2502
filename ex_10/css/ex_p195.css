@@ -1,0 +1,54 @@
+section {
+    border: 3px solid lightblue;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.sec1 > h3 {
+    color: blue;
+}
+
+.sec1 > p {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.bluetext {
+    color: blue;
+}
+
+.sec4 > h2.accent {
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+}
+
+.sec5 > h2.accent {
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+}
+
+.browntext {
+    color: brown;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.container > h2.accent {
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+}
+
+.container {
+    width: 600px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+.underline {
+    text-decoration: underline;
+}
