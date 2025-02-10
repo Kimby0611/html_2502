@@ -1,0 +1,106 @@
+div {
+    padding: 15px;
+    border: 2px solid lightseagreen;
+    margin-bottom: 5px;
+}
+.div1 > section > h1 {
+    color: blue;
+}
+
+.div1 > p {
+    font-size: 0.9em;
+    line-height: 2.0;
+}
+
+p.dotted {
+    border-style: dotted;
+}
+p.dashed {
+    border-style: dashed;
+}
+p.solid {
+    border-style: solid;
+}
+p.double {
+    border-style: double;
+}
+p.groove {
+    border-style: groove;
+}
+p.ridge {
+    border-style: ridge;
+}
+p.inset {
+    border-style: inset;
+}
+p.outset {
+    border-style: outset;
+}
+p.none {
+    border-style: none;    
+}
+p.hidden {
+    border-style: hidden;
+}
+p.mixed {
+    border-style: dotted dashed solid double;
+}
+
+p.one {
+    border: 5px solid black;
+}
+
+p.two {
+    border: medium solid blue;
+}
+
+p.three {
+    border: 5px solid black;
+}
+
+p.four {
+    border: thick dotted blue;
+}
+
+p.five {
+    border: 15px double black;
+}
+
+p.six {
+    border: thick double blue;
+}
+
+p.color1 {
+    border: 3px solid red;
+}
+
+p.color2 {
+    border: 3px solid green;
+}
+
+p.color3 {
+    border: 3px dotted blue;
+}
+
+p.normal {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+p.round2 {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+p.round3 {
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+}
