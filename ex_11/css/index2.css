@@ -3,49 +3,37 @@ section {
     margin-bottom: 5px;
     padding: 10px;
 }
-.meow-script-regular {
-    font-family: "Meow Script", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-/* sec1 */
-.sec1 > h2{
-    font-family: "Meow Script", serif;
-    font-weight: 400;
-    font-style: none;
-}
 
-/* sec2 */
-.sec2 > a:link {
+/* sec1 */
+.sec1 > a:link {
     color: green;
     background-color: transparent;
     text-decoration: none;
 }
-.sec2 > a:visited {
+.sec1 > a:visited {
     color: pink;
     background-color: transparent;
     text-decoration: none;
 }
-.sec2 > a:hover {
+.sec1 > a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
 }
-.sec2 > a:active {
+.sec1 > a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
 }
 
-/* sec3 */
-.sec3 > a {
+/* sec2 */
+.sec2 > a {
     font-size: 2em;
     border-radius: 50px;
     
 }
-.sec3 > a:link,
-.sec3 > a.visited {
+.sec2 > a:link,
+.sec2 > a.visited {
     background-color: #f46936;
     color: white;
     padding: 15px 25px;
@@ -53,28 +41,10 @@ section {
     text-decoration: none;
     display: inline-block;
 }
-.sec3 > a:hover,
-.sec3 > a:active {
+.sec2 > a:hover,
+.sec2 > a:active {
     background-color: red;
     box-shadow: 5px -5px #943715;
     color: black;
     transform: translateY(5px);
-}
-
-/* sec5 */
-.sec5 > p {
-    border: 1px solid black;
-    padding: 3px;
-}
-.align-left {
-    text-align: left;
-}
-.align-right {
-    text-align: right;
-}
-.align-center {
-    text-align: center;
-}
-.align-justify {
-    text-align: justify;
 }
