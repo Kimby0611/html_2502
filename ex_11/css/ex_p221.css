@@ -1,0 +1,44 @@
+section {
+    border: 2px solid darkgoldenrod;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.meow-script-regular {
+    font-family: "Meow Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* sec1 */
+.sec1 > h1 {
+    font-size: 3em;
+}
+.sec > p {
+    font-size: 1em;
+}
+
+/* sec2 */
+.accent {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+/* sec3 */
+.sec3 > p {
+    font-style: italic;
+}
+.sec3 > p.txt {
+    font-style: normal;
+}
+
+/* sec4 */
+.sec4 > p.txt {
+    font: italic 12px/24px 돋움;
+}
+
+/* sec5 */
+.sec5 > p > span.accent {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}

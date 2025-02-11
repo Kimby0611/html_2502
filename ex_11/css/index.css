@@ -1,0 +1,17 @@
+section {
+    border: 2px solid darkgoldenrod;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.meow-script-regular {
+    font-family: "Meow Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+/* sec1 */
+.sec1 > h2{
+    font-family: "Meow Script", serif;
+    font-weight: 400;
+    font-style: none;
+}
