@@ -1,0 +1,81 @@
+section {
+    border: 2px solid darkgoldenrod;
+    margin-bottom: 5px;
+    padding:10px;
+}
+table {
+    margin: auto;
+}
+
+/* sec1 */
+.sec1 > table {
+    border-collapse: collapse;
+    width: 80%;
+}
+.sec1 th, 
+.sec1 td {
+    text-align: left;
+    padding: 8px;
+}
+.sec1 tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+/* sec2 */
+.sec2 table,
+.sec2 th, 
+.sec2 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.sec2 th {
+    font: op;   
+}
+.sec2 th:nth-child(even),
+.sec2 td:nth-child(odd) {
+    background-color: #D6EEEE;
+}
+
+/* sec3 */
+.sec3 table,
+.sec3 th,
+.sec3 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.sec3 tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+.sec3 th:nth-child(even),
+.sec3 td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+/* sec4 */
+.sec4 table {
+    border-collapse: collapse;
+    width: 80%;
+}
+.sec4 tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* sec5 */
+.sec5 table {
+    border-collapse: collapse;
+    width: 80%;
+}
+.sec5 th,
+.sec5 td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+
+}
+.sec5 tr:hover {
+    background-color: #D6EEEE;
+}
+.sec5 tr:hover > * {
+    border-bottom: 1px solid black;
+}
+

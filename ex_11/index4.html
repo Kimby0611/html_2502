@@ -1,57 +1,13 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>과제_0211 w3_<a>태그, 링크버튼, media_width</title>
-    <link rel="stylesheet" href="./css/index2.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index4.css">
 </head>
 <body>
     <section class="sec1">
-        <h2>Link Colors</h2>
-        <p>You can change the default colors of links</p>
-        <a href="./ex_p221.html" target="_blank">HTML Images</a>
-    </section>
-
-    <section class="sec2">
-        <h2>Link Button</h2>
-        <p>A link styled as a button : </p>
-        <a href="./ex_p221.html" target="_blank">This is a link</a>
-    </section>
-
-    <section class="sec3">
-        <h2>The picture Element</h2>
-        <div id="b_width">test</div>
-        <script>
-            //초기 브라우저 넓이 표시
-            document.getElementById("b_width").innerHTML = 
-            "브라우저 넓이: " + window.innerWidth + "px";
-    
-            //창 크기가 변경될 때마다 업데이트
-            window.addEventListener("resize", function () {
-                document.getElementById("b_width").innerHTML = 
-                "브라우저 넓이: " + window.innerWidth + "px"
-            });
-        </script>
-        <picture>
-            <source media="(min-width: 1000px)" srcset="./images/img_food.jpg">
-            <source media="(min-width: 650px)" srcset="./images/img_car.jpg">
-            <img src="./images/img_girl.jpg" style="width: auto">
-        </picture>
-        <p>
-            Resize the browser to see different versions of the picture loading
-            at different viewport sizes. The browser looks for the first source element
-            where the media query matches the user's current viewport width, and fetches the 
-            image specified in the srcset attribute.
-        </p>
-        <p>
-            The img element is required as the lastg child tag of the picture declaration
-            block. The img element is used to provide backward compatibility for browsers that
-            do not support the picture element, or if none of the source tags matched
-        </p>
-    </section>
-
-    <section class="sec4">
         <h2>Zebra Striped Table</h2>
         <p>
             For zebra-striped tables, use the nth-child() selector and
@@ -86,7 +42,7 @@
         </table>
     </section>
 
-    <section class="sec5">
+    <section class="sec2">
         <h2>Striped Table</h2>
         <p>
             For zebra-striped tables, use the nth-child() selector and add
@@ -142,7 +98,7 @@
         </table>
     </section>
 
-    <section class="sec6">
+    <section class="sec3">
         <h2>Striped Table</h2>
         <p>
             For zebra-striped tables, use the nth-child() selector
@@ -197,7 +153,7 @@
         </table>
     </section>
 
-    <section class="sec7">
+    <section class="sec4">
         <h2>Bordered Table Dividers</h2>
         <p>Add the border-bottom property to the tr elements
             for horizontal dividers :
@@ -232,7 +188,7 @@
         </table>
     </section>
 
-    <section class="sec8">
+    <section class="sec5">
         <h2>Hoverable Table</h2>
         <p>Move the mouse over the table rows to see the effect.</p>
         <table>

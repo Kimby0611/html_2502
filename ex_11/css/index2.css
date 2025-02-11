@@ -3,6 +3,10 @@ section {
     margin-bottom: 5px;
     padding: 10px;
 }
+table {
+    margin: auto;
+}
+
 
 /* sec1 */
 .sec1 > a:link {
@@ -47,4 +51,77 @@ section {
     box-shadow: 5px -5px #943715;
     color: black;
     transform: translateY(5px);
+}
+
+
+/* sec4 */
+.sec4 > table {
+    border-collapse: collapse;
+    width: 80%;
+}
+.sec4 th, 
+.sec4 td {
+    text-align: left;
+    padding: 8px;
+}
+.sec4 tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+/* sec5 */
+.sec5 table,
+.sec5 th, 
+.sec5 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.sec5 th {
+    font: op;   
+}
+.sec5 th:nth-child(even),
+.sec5 td:nth-child(odd) {
+    background-color: #D6EEEE;
+}
+
+/* sec6 */
+.sec6 table,
+.sec6 th,
+.sec6 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.sec6 tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+.sec6 th:nth-child(even),
+.sec6 td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+/* sec7 */
+.sec7 table {
+    border-collapse: collapse;
+    width: 80%;
+}
+.sec7 tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* sec8 */
+.sec8 table {
+    border-collapse: collapse;
+    width: 80%;
+}
+.sec8 th,
+.sec8 td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+
+}
+.sec8 tr:hover {
+    background-color: #D6EEEE;
+}
+.sec8 tr:hover > * {
+    border-bottom: 1px solid black;
 }
