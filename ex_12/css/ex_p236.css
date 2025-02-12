@@ -142,3 +142,65 @@ section {
 .uselist {
     list-style: nones;
 }
+
+/* sec12 */
+.sec12 .q1{
+    font-weight: 700;
+    font-size: larger;
+}
+.container1 {
+    width:500px;
+    padding:10px;
+    border:1px solid #ccc;
+}
+
+/* sec13 */
+.container2 {
+    width:500px;
+    padding:10px;
+    border:1px solid #ccc;
+}
+.sec13 ul {
+    list-style: none;
+}
+.subject {
+    font-weight:700;
+    font-size:larger;
+    color: #ad3000;
+}
+.sec13 li {
+    line-height: 2;
+}
+
+/* sec14 */
+.container3 {
+    width:500px;
+    height:50px;
+    margin:0 auto;
+    background-color:#444;
+}   
+.sec14 h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 2px 5px black;
+} 
+
+/* sec15 */
+.sec15 {
+    font-family: "맑은 고딕", 돋움;
+}
+.sec15 h1 {
+    font-family: 17px;
+}
+.sec15 p {
+    font-size: 16px;
+    line-height: 25px;
+}
+.accent15 {
+    font-weight: bold;
+    color: red;
+}
+.book-img {
+    float: left;
+    margin-right: 20px;
+}
