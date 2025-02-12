@@ -17,6 +17,12 @@ section {
     padding: 5px;
     margin: auto;
 }
+.list2 {
+    border: 1px solid black;
+    width: 400px;
+    padding: 5px;
+    margin: auto;
+}
 
 /* sec1 */
 .align-left {
@@ -125,4 +131,14 @@ section {
 /* sec9 */
 .ulimg {
     list-style-image: url('file:///C:/Users/YONSAI/Documents/front_202502/Doit!_HTML5CSS3%EC%9B%B9%ED%91%9C%EC%A4%80%EC%9D%98%EC%A0%95%EC%84%9D_%EC%86%8C%EC%8A%A4/06/images/dot.png');
+}
+
+/* sec10 */
+.inside {
+    list-style-position: inside;
+}
+
+/* sec11 */
+.uselist {
+    list-style: nones;
 }
