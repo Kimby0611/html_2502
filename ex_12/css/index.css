@@ -1,17 +1,18 @@
-div {
+section {
     border: 2px solid rgb(236, 236, 23);
     padding: 10px;
     margin-bottom: 5px;
 }
 
-.sec1 {
+/* index_symbol */
+.div1 {
     display: flex;
     flex-direction: row;
     gap: 100px;
     justify-content: center;
     margin-bottom: 70px;
 }
-.sec2 {
+.div2 {
     display: flex;
     flex-direction: row; 
     gap: 100px;
@@ -47,6 +48,7 @@ th {
     background-color: rgba(177, 228, 245, 0.5);
 }
 
+/* index_boxmodel */
 .box1 {
     background-color: lightgray;
     width: 300px;

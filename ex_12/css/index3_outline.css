@@ -1,0 +1,160 @@
+section {
+    border: 2px solid rgb(236, 236, 23);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+p {
+    width: 500px;
+}
+
+/* sec1 */
+.dotted {
+    outline-style: dotted;
+}
+.dashed {
+    outline-style: dashed;
+}
+.solid {
+    outline-style: solid;
+}
+.double {
+    outline-style: double;
+}
+.groove {
+    outline-style: groove;
+}
+.ridge {
+    outline-style: ridge;
+}
+.inset {
+    outline-style: inset;
+}
+.outset {
+    outline-style: outset;
+}
+
+/* sec2 */
+.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+}
+.ex2 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+}
+.ex3 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+}
+.ex4 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+}
+
+/* sec3 */
+.col1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.col2 {
+    border: 2px solid black;
+    outline-style: dotted;
+    outline-color: blue;
+}
+.col3 {
+    border: 2px solid black;
+    outline-style: outset;
+    outline-color: grey;
+}
+
+/* sec4 */
+.hex1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: #ff0000;
+}
+.hex2 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: #0000ff;
+}
+.hex3 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: #bbbbbb;
+}
+
+/* sec5 */
+.rgb1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: rgb(255, 0, 0);
+}
+.rgb2 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: rgb(0, 0, 255);
+}
+.rgb3 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: rgb(187, 187, 187);
+}
+
+/* sec6 */
+.hsl1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: hsl(0, 100%, 50%);
+}
+.hsl2 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: hsl(240, 100%, 50%);
+}
+
+.hsl3 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: hsl(0, 0%, 73%);
+}
+
+/* sec7 */
+.short1 {
+    outline: dashed;
+}
+.short2 {
+    outline: dotted red;
+}
+.short3 {
+    outline: 5px solid yellow;
+}
+.short4 {
+    outline: thick ridge pink;
+}
+
+/* sec8 */
+.out {
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
+
+/* sec9 */
+.off{
+    margin: 30px;
+    background: yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
