@@ -5,7 +5,11 @@ section {
 }
 .sec1 p,
 .sec2 p,
-.sec3 p {
+.sec3 p,
+.container1,
+.container2,
+.container3,
+.container4 {
     border: 1px solid black;
     width: 600px;
     margin: 5px auto;
@@ -195,6 +199,9 @@ section {
 .sec15 p {
     font-size: 16px;
     line-height: 25px;
+}
+.container4 {
+    width: 800px;
 }
 .accent15 {
     font-weight: bold;
