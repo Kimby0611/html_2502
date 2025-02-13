@@ -359,7 +359,7 @@ p.ex1 {
 
 /* sec28 */
 .sec28 p{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
 }
@@ -370,9 +370,12 @@ p.ex1 {
     text-shadow: 10px 10px red;    
 }
 .sp3 {
+    text-shadow: none;
+}
+.sp3:hover {
     text-shadow: 
-    /* 5px 5px 1px yellow,
-    -5px -5px 1px green,*/
-    5px -5px 1px pink, 
-    -5px 5px -1px violet;
+    10px 10px 5px yellow,
+   -10px -10px 5px green,
+   10px -10px 5px pink, 
+   -10px 10px 5px blue;
 }
