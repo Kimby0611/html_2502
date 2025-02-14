@@ -1,0 +1,54 @@
+section {
+    border: 3px solid orange;
+    background: rgba(245, 93, 225, 0.2);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* sec1 */
+.sec1 i:nth-last-child(1) {
+    font-size: 60px;
+    color: lightblue;
+}
+.sec1 i:nth-last-child(2) {
+    font-size: 48px;
+    color: red;
+}
+.sec1 i:nth-last-child(3) {
+    font-size: 36px;
+}
+.sec1 i:nth-last-child(4) {
+    font-size: 24px;
+}
+
+/* sec2 */
+.sec2 i:nth-last-child(1) {
+    font-size: 60px;
+    color: lightblue;
+}
+.sec2 i:nth-last-child(2) {
+    font-size: 48px;
+    color: red;
+}
+.sec2 i:nth-last-child(3) {
+    font-size: 36px;
+}
+.sec2 i:nth-last-child(4) {
+    font-size: 24px;
+}
+
+/* sec3 */
+.sec3 i:nth-last-child(1) {
+    font-size: 60px;
+    color: lightblue;
+}
+.sec3 i:nth-last-child(2) {
+    font-size: 48px;
+    color: red;
+}
+.sec3 i:nth-last-child(3) {
+    font-size: 36px;
+}
+.sec3 i:nth-last-child(4) {
+    font-size: 24px;
+}
