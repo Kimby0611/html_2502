@@ -1,0 +1,388 @@
+section {
+    border: 2px solid greenyellow;
+    background: rgba(201, 243, 15, 0.2);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+h1 {font-size: 35px;}
+
+/* sec1 */
+.sec1 span {
+    color: red;
+}
+
+/* sec2 */
+.sec2 .box1 {
+    width: 400px;
+    height: 100px;
+    background: #ff6a00;
+}
+.sec2 .box2 {
+    width: 50%;
+    height: 100px;
+    background: #0094ff;
+}
+
+/* sec3 */
+.div3 div {
+    border: 1px solid black;
+    flex: 1;
+    margin: auto;
+}
+.block img{
+    display: block;
+}
+.inline img{
+    display: inline;
+}
+
+/* sec4 */
+.sec4 nav, 
+.sec4 ul,
+.sec4 li {
+    display: inline;
+}
+.sec4 li {
+    color: black;
+    margin-right: 20px;
+    border-top: 2px solid black;
+}
+.sec4 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* sec5 */
+.sec5 nav, 
+.sec5 ul,
+.sec5 li {
+    display: inline-block;
+    margin: 20px;
+}
+.sec5 nav {
+    width: 90%;
+    background-color: rgb(9, 83, 143);
+}
+.sec5 a {
+    color: white;
+    text-decoration: none;
+}
+.sec5 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* sec6 */
+.sec6 div {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    display: inline-block;
+}
+
+/* sec7 */
+.sec7 .box1,
+.sec7 .box2,
+.sec7 .box3{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+    border-width: 5px;
+}
+.border .box1 {
+    border-style: solid;
+}
+.border .box2 {
+    border-style: dotted;
+}
+.border .box3 {
+    border-style: dashed;
+}
+.width .box1 {
+    border-style: solid;
+    border-width: 2px;
+}
+.width .box2 {
+    border-style: solid;
+    border-width: thick thin;
+}
+.width .box3 {
+    border-style: solid;
+    border-width: 5px 10px 15px 20px;
+}
+
+/* sec8 */
+.sec8 div {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+    border-style: dashed;
+    border-width: 2px;
+}
+.sec8 div:nth-of-type(1) {
+    border-color: blue;
+}
+.sec8 div:nth-of-type(2) {
+    border-color: red;
+}
+
+/* sec9 */
+.sec9 div {
+    width: 600px;
+    margin: auto;
+}
+.sec9 h2 {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ccc;
+}
+.sec9 p {
+    padding: 10px;
+    border: 3px dotted black;
+}
+
+/* sec10 */
+.sec10 .round-div {
+    margin: 0 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+.sec10 .round {
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+#bg {
+    background: url(../images/pic1.jpg);
+    background-size: cover;
+}
+.round-two {
+    width: 200px;
+    height: 100px;
+    border: 2px solid blue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.round-four {
+    width: 200px;
+    height: 100px;
+    background: #0c78c8;
+    border: 2px solid blue;
+    border-radius: 20px 70px;
+}
+
+/* sec11 */
+.sec11  div {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+    background: #ffd800;
+    border: 2px solid;
+}
+.sec11 .round1 {
+    border-top-left-radius: 100px 50px;
+}
+.sec11 .round2 {
+    border-bottom-right-radius: 50% 30%;
+}
+.sec11 .round3 {
+    border-top-right-radius: 50px;
+}
+
+/* sec12 */
+.sec12 div {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.sec12 .box1 {
+    box-shadow: 2px -2px 5px 0 black;
+}
+.sec12 .box2 {
+    box-shadow: 5px 5px 15px 5px gray;
+}
+
+/* sec13 */
+.sec13 div {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 3px solid red;
+    border-radius: 50%;
+}
+
+/* sec14 */
+.sec14 div {
+    width: 200px;
+    height: 100px;
+    background: #0094ff;
+}
+.sec14 .box1 {
+    margin: 30px 50px 30px 50px;
+}
+.sec14 .box2 {
+    margin: 30px 50px;
+}
+.sec14 .box3 {
+    margin: 50px;
+}
+.sec14 .box4 {
+    margin: 30px 50px 10px;
+}
+
+/* sec15 */
+.sec15 .box {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+/* sec16 */
+.sec16 div {
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+}
+.sec16 .box1 {
+    background: rgb(0, 77, 243);
+}
+.sec16 .box2 {
+    background: rgb(255, 72, 0);
+}
+.sec16 .box3 {
+    background: rgb(18, 219, 0);
+}
+
+/* sec17 */
+.sec17 div {
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    display: inline-block;
+}
+.sec17 .box1 {
+    background: rgb(0, 77, 243);
+}
+.sec17 .box2 {
+    background: rgb(255, 73, 0);
+}
+.sec17 .box3 {
+    background: rgb(18, 219, 0);
+}
+
+/* sec18 */
+.sec18 div {
+    width: 200px;
+    height: auto;
+    background: #0094ff;
+    display: inline-block;
+    margin: 15px;
+    color: white;
+}
+.sec18 .box1 {
+    padding: 10px 30px 10px 30px;
+}
+.sec18 .box2 {
+    padding:10px 30px;
+}
+.sec18 .box3 {
+    padding:10px;
+}
+
+/* sec19 */
+.sec19-1 {
+    background-color: black;
+    padding: 0;
+    width: 60%;
+    margin: auto;
+}
+.sec19 div {
+    background-color: white;
+    margin: 0 5px;
+    padding: 1px;
+    padding-left: 10px;
+}
+.sec19 article {
+    width: 90%;
+    height: auto;
+    margin: 20px 10px;
+    padding: 20px;
+}
+#pet1 {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#pet2 {
+    border: 1px dotted blue;
+    border-radius: 20px;
+}
+#pet3 {
+    border: 2px double green;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.sec19 nav,
+.sec19 ul,
+.li1 {
+    display: inline-block;
+}
+
+.sec19 header {
+    background-color: #0c78c8;
+    color: white;
+    display: flex;
+    padding: 0 30px;
+    margin-bottom: 5px;
+}
+.sec19 nav {
+    width: 80%;
+    text-align: right;
+    padding-top: 10px;
+}   
+.sec19 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+}
+.sec19 dt {
+    color: violet;
+}
+
+/* sec20 */
+.sec20 .box1 {
+    width: 700px;
+    height: 300px;
+    border: 1px solid red;
+    border-width: 5px 20px 10px 15px;
+    margin: auto;
+}
+
+/* sec21 */
+.sec21 nav {
+    display: flex;
+    justify-content: center;
+}
+.sec21 li {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+}
+.sec21 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+.sec21 a:hover {
+    background-color: white;
+}
