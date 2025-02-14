@@ -1,0 +1,341 @@
+section {
+    border: 3px solid orange;
+    background: rgba(245, 93, 225, 0.3);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+/* sec1 */
+.p1 {
+    font-family: "Amatic sc",
+    Times, serif;
+}
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p3 {
+    font-family: "Lucida Console", 'Courier New', monospace;
+}
+
+/* sec2 */
+ .sec2 p {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+/* sec3 */
+.sec3 {
+    font-family: Arial, sans-serif;
+}
+
+/* sec4 */
+.sec4 {
+    font-family: Verdana, sans-serif;
+}
+
+/* sec5 */
+.sec5 {
+    font-family: Tahoma, sans-serif;
+}
+
+/* sec6 */
+.sec6 {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* sec7 */
+.sec7 {
+    font-family: 'Times New Roman', serif;
+}
+
+/* sec8 */
+.sec8 {
+    font-family: Georgia, serif;
+}
+
+/* sec9 */
+.sec9 {
+    font-family: Garamond, serif;
+}
+
+/* sec10 */
+.sec10 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* sec11 */
+.sec11 {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+/* sec12 */
+.sec12 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* sec13 */
+.sec13 {
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+/* sec14 */
+.sec14 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* sec15 */
+.sec15 {
+    font-family: 'Brush Script MT', cursive;
+}
+
+/* sec16 */
+.sec16 {
+    font-family: 'Copperplate', Papyrus, fantasy;
+}
+
+/* sec17 */
+p.normal {
+    font-style: normal;
+}
+p.italic {
+    font-style: italic;
+}
+p.oblique {
+    font-style: oblique;
+}
+
+/* sec18 */
+p.normal_weight {
+    font-weight: normal;
+}
+p.light {
+    font-weight: lighter;
+}
+p.thick {
+    font-weight: bold;
+}
+p.thicker {
+    font-weight: 900;
+}
+
+/* sec19 */
+p.normar_variant {
+    font-variant: normal;
+}
+p.small {
+    font-variant: small-caps;
+}
+
+/* sec20 */
+.sec20 h1 {
+    font-size: 40px;
+}
+.sec20 h2 {
+    font-size: 30px;
+}
+.sec20 p {
+    font-size: 14px;
+}
+
+/* sec21 */
+.sec21 h1 {
+    font-size: 2.5em;
+}
+.sec21 h2 {
+    font-size: 1.875em;
+}
+.sec21 p {
+    font-size: 0.875em;
+}
+
+/* sec22 */
+.sec22 {
+    font-size: 100%;
+}
+.sec22 h1 {
+    font-size: 2.5em;
+}
+.sec22 {
+    font-size: 1.875em;
+}
+.sec22 {
+    font-size: 0.875em;
+}
+
+/* sec23 */
+/* vw = viewport의 넓이 */
+.sec23 h1 {
+    font-size: 10vw;
+}
+.vw1 {
+    font-size: 5vw;
+}
+.vw2 {
+    font-size: 5vw;
+}
+
+/* sec24 */
+.sec24 {
+    font-family: "Sofia", sans-serif;
+}
+
+/* sec25 */
+.sec25 {
+    font-family: "Trirong", sans-serif;
+}
+
+/* sec26 */
+.sec26 {
+    font-family: "Audiowide", sans-serif;
+}
+
+/* sec27 */
+.sec27 h1:nth-child(1) {
+    font-family: "Audiowide", sans-serif;
+}
+.sec27 h1:nth-child(2) {
+    font-family: "Sofia", sans-serif;
+}
+.sec27 h1:nth-child(3) {
+    font-family: "Trirong", serif;
+}
+
+/* sec28 */
+.sec28 {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+/* sec29 */
+.sec29 {
+    background-color: white;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+
+/* sec30 */
+.sec30 {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    background-color: white;
+}
+
+/* sec31 */
+.sec31 {
+    background-color: black;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+.sec31 h1 {
+    font-family: Georgia, serif;
+    font-size: 60px;
+    color: white;
+}
+
+/* sec32 */
+.sec32 {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+.sec32 h1 {
+    font-family: Georgia, serif;
+    font-size: 46px;
+}
+
+/* sec33 */
+.sec33 {
+    font-family: Garamond, serif;
+    font-size: 16px;
+}
+.sec33 h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 46px;
+}
+
+/* sec34 */
+.sec34 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.sec34 h1 {
+    font-family: Merriweather, serif;
+    font-size: 46px;
+}
+
+/* sec35 */
+.sec35 {
+    font-family: Lora, serif;
+    font-size: 16px;
+}
+.sec35 h1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 46px;
+}
+
+/* sec36 */
+.sec36 {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+}
+.sec36 h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 46px;
+}
+
+/* sec37 */
+.sec37 {
+    font-family: 'Fauna One', serif;
+    font-size: 16px;
+}
+.sec37 h1 {
+    font-family: Cinzel, serif;
+    font-size: 46px;
+}
+
+/* sec38 */
+.sec38 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+}
+.sec38 h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 46px;
+}
+
+/* sec39 */
+.sec39 {
+    font-family: Muil, sans-serif;
+    font-size: 16px;
+}
+.sec39 h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 46px;
+}
+
+/* sec40 */
+.sec40 {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+}
+.sec40 h1 {
+    font-family: Spectral, serif;
+    font-size: 46px;
+}
+
+/* sec41 */
+.sec41 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+.sec41 h1 {
+    font-family: Oswald, sans-serif;
+    font-size: 46px;
+}
+
+/* sec42 */
+.sec42 p:nth-of-type(1) {
+    font: 20px Arial, sans-serif;
+}
+.sec42 p:nth-of-type(2) {
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}
