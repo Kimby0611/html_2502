@@ -4,5 +4,15 @@ function funHidden() {
 }
 
 function imgNone () {
-    d.getElementById("div8-1").style.display = 'none';
+    d.getElementById("div9_1").style.display = 'none';
+}
+
+function imgHidden () {
+    console.log(document.getElementById('div9_2'));
+    d.getElementById('div9_2').style.visibility = 'hidden';
+}
+
+function imgReset () {
+    d.getElementById('div9_1').style.display = 'flex';
+    d.getElementById('div9_2').style.visibility = 'visible';
 }
