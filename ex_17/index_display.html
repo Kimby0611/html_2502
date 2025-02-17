@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제_0217 w3 _ CSS Display</title>
+    <link rel="stylesheet" href="./css/index_display.css">
+</head>
+<body>
+    <section class="sec1">
+        <h1>inline</h1>
+        <p>Display a list of links as a horizontal menu: </p>
+        <ul>
+            <li> <a href="./ex_p32.html">HTML</a></li>
+            <li><a href="./ex_p32.html">CSS</a></li>
+            <li><a href="./ex_p32.html">JavaScript</a></li>
+        </ul>
+    </section>
+
+    <section class="sec2">
+        <h1>Display span elements as block elements</h1>
+        <span>A display property with</span><span>a value
+        of "block" results in</span> <span>a line
+        break between each span elements.</span>
+    </section>
+
+    <section class="sec3">
+        <h1>Display links as block elements</h1>
+        <a href="./ex_p32.html">HTML</a>
+        <a href="./ex_p32.html">CSS</a>
+        <a href="./ex_p32.html">JavaScript</a>
+    </section>
+
+    <section class="sec4">
+        <h1>This is a visible heading</h1>
+        <h1 class="hidden">This is a hidden heading</h1>
+        <p>
+            Notice that the h1 element with display: 
+            none; does not take up any space.
+        </p>
+    </section>
+
+    <section class="sec5">
+        <h1>This is a visible heading</h1>
+        <h1 class="hidden">This is a hidden heading</h1>
+        <p>Notice that the hidden heading still takes up space.</p>
+    </section>
+
+    <section class="sec6">
+        <p class="panel" id="panel" onclick="this.style.display = 'none'">
+            <span>panel</span>
+            나를 클릭하면 사라져요
+        </p>
+    </section>
+
+    <section class="sec7">
+        <span>panel2</span>
+        <p class="panel2" id="panel2" onclick="funHidden()">나를 클릭하면 panel이 나타나요</p>
+    </section>
+
+    <script src="./js/index.display.js"></script>
+</body>
+</html>

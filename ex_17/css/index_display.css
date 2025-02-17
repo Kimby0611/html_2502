@@ -1,0 +1,30 @@
+section {
+    border: 2px solid green;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* sec1 */
+.sec1 li {
+    display: inline;
+}
+
+/* sec2 */
+.sec2 span {
+    display: block;
+}
+
+/* sec3 */
+.sec3 a {
+    display: block;
+}
+
+/* sec4 */
+.sec4 .hidden {
+    display: none;
+}
+
+/* sec5 */
+.sec5 .hidden {
+    visibility: hidden;
+}
