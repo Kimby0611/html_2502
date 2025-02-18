@@ -119,4 +119,39 @@ var a9 = 10;
 var b9 = 3;
 
 var result9 = a9 > b9 ? "javascript" : "hello";
-document.write(result9);
+document.write(result9, "<br> <hr>");
+
+//적정 체중 구하기
+function btn1click () {
+    var name = prompt("당신의 이름은?", "");
+    var height = prompt("당신의 신장은?", 0);
+    var weight = prompt("당신의 몸무게는?", 0);
+
+    var normal_w = (height - 100) * 0.9;
+    var result = weight >= normal_w - 5 && weight <= normal_w + 5;
+    result = result ? "적정 체중입니다." : "적정 체중이 아닙니다."
+    document.getElementById('normal_w').innerHTML = `${name}님은 ${result}` ;
+}
+/*
+마무리 문제1
+var price1 = 3000;
+var price2 = 6000;
+var price3 = 3000;
+var total = price1 + price2 + price3;
+
+var moneyResult = price1 + price2 + price3 > 10000 ? `${total-10000}원 초과` : "돈 관리 잘했어요";
+document.getElementById("m_total").innerHTML = moneyResult;
+*/
+
+//마무리 문제2
+function btn2click () {
+    var div1 = 1200;
+    var div2 = 1300;
+    var div3 = 1000;
+    var div4 = prompt("4분기 판매량은?");
+    var avarage = (div1 + div2 + div3) / 3;
+    
+    var avarageMoney = div4 >= avarage ? "판매량이 평균 이상입니다." : "판매량이 평균 미달입니다";
+    document.getElementById('avamoney1').innerHTML = avarageMoney , "<br>";
+    document.getElementById('avamoney2').innerHTML = `전 분기 평균 판매량은 ${avarage} 입니다.`
+}
