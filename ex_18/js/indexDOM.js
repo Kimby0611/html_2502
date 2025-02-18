@@ -38,7 +38,7 @@ const element8 = document.getElementById("id01");
 element8.innerHTML = "New Heading";
 
 //sec9
-document.getElementById("image9").src = "https://www.w3schools.com/js/landscape.jpg"
+document.getElementById("image9").src = "../images/landscape.jpg"
 
 //sec10
 document.getElementById("demo10").innerHTML = "Date: " + Date();
