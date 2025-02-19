@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제_0219 w3 _ DOM Form, DOM Event</title>
+    <link rel="stylesheet" href="./css/index_DOMForms.css">
+</head>
+<body onload="checkCookies()">
+    
+    <section class="sec1">
+        <h2>JavaScriptValidation(Example)</h2>
+        <form name="myForm1" action="#" onsubmit="return validateForm1()" method="post">
+            Name: <input type="text" name="fname1">
+            <input type="submit" value="Submit">
+          </form>
+    </section>
+
+    <section class="sec2">
+        <h2>JavaScriptValidation(input number)</h2>
+        <p>Please input a number between 1 and 10: </p>
+        <input type="text" id="numb2">
+        <button type="button" onclick="myFunction1()">Submit</button>
+        <p id="demo2"></p>
+    </section>
+
+    <section class="sec3">
+        <h2>JavaScriptValidation(fill text)</h2>
+        <form action="#" method="post">
+            <input type="text" name="fname3" required>
+            <input type="submit" value="Submit">
+        </form>
+        <p>
+            If you click submit, without filling out the text field, your browser will display an error message.
+        </p>
+    </section>
+
+    <section class="sec4">
+        <h2>JavaScript HTML DOM CSS</h2>
+        <p>Changing the HTML style:</p>
+        <p id="p4_1">Hello World!</p>
+        <p id="p4_2">Hello World!</p>
+    </section>
+    
+    <section class="sec5">
+        <h1>JavaScript buttonCSS</h1>
+        <h1 id="id5">My Heading1</h1>
+        <button type="button" onclick="btn5()">Click Me!</button>
+    </section>
+    
+    <section class="sec6">
+        <h1>JavaScript HTML Events(click Text)</h1>
+        <h2>The onclick Attribute</h2>
+        <h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
+    </section>
+    
+    <section class="sec7">
+        <h1>JavaScript HTML Events</h1>
+        <h2>The onclick Attribute</h2>
+        <h2 onclick="sec7(this)">Click on this text!</h2>
+    </section>
+    
+    <section class="sec8">
+        <h1>JavaScript HTML Events (button-onclick)</h1>
+        <h2>The onclick Attribute</h2>
+        <p>Click the button to display the date.</p>
+        <button onclick="displayDate8()">The time is?</button>
+        <p id="demo8"></p>
+        <p id="demo8_1"></p>
+    </section>
+    
+    <section class="sec9">
+        <h1>JavaScript HTML Events (button-id)</h1>
+        <h2>The onclick Events</h2>
+        <p>Click "Try it" to execute the displayDate() function.</p>
+        <button id="myBtn9">Tyr it</button>
+        <p id="demo9"></p>
+        
+    </section>
+    
+    <section class="sec10">
+        <h1>JavaScript HTML Events(onload)</h1>
+        <h2>The onload Attribute</h2>
+        <p id="demo10"></p>
+    </section>
+
+    <section class="11">
+        <h1>JavaScript HTML Events(oninput)</h1>
+        <h2>The oninput Attribute</h2>
+        Enter your name: <input type="text" id="fname11" oninput="upperCase11()">
+        <p>When you write in the input field, a function is triggered to transform the input to upper case.</p>
+    </section>
+    
+    <section class="12">
+        <h1>JavaScript HTML Events(onchange)</h1>
+        <h2>The onchange Attribute</h2>
+        Enter your name: <input type="text" id="fname12" onchange="upperCase12()">
+        <p>When you leave the input field, a function transforms the input to uppercase.</p>
+    </section>
+    
+    <section class="13">
+        <h1>JavaScript HTML Events(on mouse over)</h1>
+        <h2>The onmouseover Attribute</h2>
+        <div onmouseover="mOver13(this)" onmouseout="mOut13(this)" 
+        style="background-color: #D94A38; width: 120px; height: 20px; padding: 40px;">
+            Mouse Over Me
+        </div>
+    </section>
+    
+    <section class="14">
+        <h1>JavaScript HTML Events(mouse click)</h1>
+        <h2>The onmousedown Attribute</h2>
+        <div onmousedown="mDown14(this)" onmouseup="mUp14(this)"
+        style="background-color: #D94A38; width: 90px; height: 20px; padding: 40px;">
+            Click Me
+        </div>
+    </section>
+    
+    <section class="15"></section>
+
+    <script src="./js/index_DOMForms.js"></script>
+</body>
+</html>
