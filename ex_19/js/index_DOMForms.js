@@ -58,6 +58,7 @@ function displayDate8() {
     today.getSeconds() + 
     "초";
     document.getElementById("demo8_1").innerHTML = srt;
+    //1초마다 함수 실행 ==> 초가 자연스럽게 흘러감?
     setInterval(displayDate8, 1000);
 }
 
