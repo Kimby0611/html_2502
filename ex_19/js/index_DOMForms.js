@@ -38,22 +38,29 @@ function sec7 (id) {
 function displayDate8() {
     document.getElementById('demo8').innerHTML = Date();
         
+    //getDay는 요일을 숫자로 반환
+    //0~6 사이의 숫자가 일~토의 순서로 매칭
     let today = new Date();
+    let week = ['일', '월', '화', '수', '목', '금', '토'];
     let srt = 
     today.getFullYear() +
-    "년" +
-    today.getMonth() +
-    "월" + 
+    "년 " +
+    (today.getMonth()+1) +
+    "월 " + 
     today.getDate() +
-    "일" +
+    "일 " +
+    week[today.getDay()] + 
+    "요일<br>" +
     today.getHours() + 
-    "시" + 
+    "시 " + 
     today.getMinutes()+
-    "분" + 
+    "분 " + 
     today.getSeconds() + 
     "초";
     document.getElementById("demo8_1").innerHTML = srt;
+    setInterval(displayDate8, 1000);
 }
+
 
 //sec9
 document.getElementById("myBtn9").onclick = displayDate9;
