@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제_0220 w3 DOM_node , BOM_window, screen</title>
+    <link rel="stylesheet" href="./css/indexDOMNav.css">
+</head>
+<body>
+    <section class="sec1">
+        <h1 id="h11">My First Page(id로 찾아서 p에 넣기)</h1>
+        <p id="p1"></p>
+    </section>
+    
+    <section class="sec2">
+        <h1 id="h12">My First Page(firstChild 사용)</h1>
+        <p id="p2"></p>
+    </section>
+        
+    <section class="sec3">
+        <h1 id="h13">My First Page(childNodes[i]사용)</h1>
+        <p id="p3"></p>
+    </section>
+    
+    <section class="sec4" id="sec4">
+        <h2>JavaScript HTMLDOM(body를 그대로 복사(여기선 section))</h2>
+        <p>Displaying document.body</p>
+        <p id="demo4"></p>
+    </section>
+
+    <section class="sec5">
+        <h2>JavaScript HTMLDOM(document.documentElement로 전체 복사)</h2>
+        <p>Displaying document.documentElement</p>
+        <p id="demo5"></p>
+    </section>
+    
+    <section class="sec6">
+        <h1 id="h16">My First Page(nodeName 사용)</h1>
+        <p id="p6"></p>
+    </section>
+    
+    <section class="sec7">
+        <h1 id="h17">My First Page(nodeType 사용)</h1>
+        <p id="p7"></p>
+    </section>
+    
+    <section class="sec8">
+        <h2>JavaScript HTMLDOM(appendChild로 내용 추가)</h2>
+        <p>Add a new HTML Element.</p>
+        <div id="div8">
+            <p id="p8_1"><기존>This is a paragraph</p>
+            <p id="p8_2"><기존>this is another paragraph</p>
+        </div>
+    </section>
+    
+    <section class="sec9">
+        <h2>JavaScript HTMLDOM(내용 추가 후 위쪽배치)</h2>
+        <p>Add a new HTML Element.</p>
+        <div id="div9">
+            <p id="p9_1"><기존>This is a paragraph</p>
+            <p id="p9_2"><기존>this is another paragraph</p>
+        </div>
+    </section>
+    
+    <section class="sec10">
+        <h2>JavaScript HTMLDOM(remove로 내용지우기)</h2>
+        <h3>Remove an HTML Element</h3>
+        <div>
+            <p id="p10_1" class="red">This is a paragraph.</p>
+            <p id="p10_2">This is another paragraph.</p>
+        </div>
+        <button onclick="btn10()">Remove Element</button>
+    </section>
+    
+    <section class="sec11">
+        <h2>JavaScript HTMLDOM(내용 수정하기)</h2>
+        <h3>Replace an HTML Element</h3>
+        <div id="div11">
+            <p id="p11_1"><기존>This is a paragraph</p>
+            <p id="p11_2"><기존>This is a paragraph</p>
+        </div>
+    </section>
+    
+    <section class="sec12" id="sec12">
+        <h2>JavaScript HTMLDOM(원하는 위치의 태그 가져와서 띄우기)</h2>
+        <p>[0]Hello World!</p>
+        <p>[1]Hello Norway!</p>
+        <p id="demo12"></p>
+    </section>
+
+    <section class="sec13" id="sec13">
+        <h2>JavaScript HTMLDOM(length로 갯수 세기)</h2>
+        <p>Hello World!</p>
+        <p>Hello Norway!</p>
+        <p id="demo13"></p>
+    </section>
+    
+    <section class="sec14" id="sec14">
+        <h2>JavaScript HTMLDOM(버튼으로 스타일 입히기)</h2>
+        <p>Hello World!</p>
+        <p>Hello Norway!</p>
+        <p>Click the button to change the color of all p elements.</p>
+        <button onclick="btn14()">Try it</button>
+    </section>
+    
+    <section class="sec15" id="sec15">
+        <h2>JavaScript HTMLDOM(querySelectorAll로 원하는 태그 가져오기)</h2>
+        <p>Hello World!</p>
+        <p>Hello Norway!</p>
+        <p id="demo15"></p>
+    </section>
+
+    <section class="sec16" id="sec16">
+        <h2>JavaScript HTMLDOM(querySelectorAll로 태그 갯수 세기)</h2>
+        <p>Hello World!</p>
+        <p>Hello Norway!</p>
+        <p id="demo16"></p>
+    </section>
+
+    <section class="sec17" id="sec17">
+        <h2>JavaScript HTMLDOM(querySelectorAll로 스타일 입히기)</h2>
+        <p>Hello World!</p>
+        <p>Hello Norway!</p>
+        <p>Click the button to change the color of all p elements</p>
+        <button onclick="btn17()">Try it</button>
+    </section>
+
+    <section class="sec18">
+        <h2>JavaScript Window(브라우저 크기)</h2>
+        <p id="demo18"></p>
+    </section>
+    
+    <section class="sec19">
+        <h2>JavaScript Window(화면 가로길이)</h2>
+        <p id="demo19"></p>
+    </section>
+    
+    <section class="sec20">
+        <h2>JavaScript Window(화면 세로길이)</h2>
+        <p id="demo20"></p>
+    </section>
+    
+    <section class="sec21">
+        <h2>JavaScript Window(화면 사용가능 가로길이)</h2>
+        <p id="demo21"></p>
+    </section>
+    
+    <section class="sec22">
+        <h2>JavaScript Window(화면 사용가능 세로길이 - 작업표시줄 제외)</h2>
+        <p id="demo22"></p>
+    </section>
+    
+    <section class="sec23">
+        <h2>JavaScript Window(색상에 쓰인 비트)</h2>
+        <p id="demo23"></p>
+    </section>
+    
+    <section class="sec24">
+        <h2>JavaScript Window(색상에 쓰인 픽셀)</h2>
+        <p id="demo24"></p>
+    </section>
+
+    <script src="./js/indexDOMNav.js"></script>
+</body>
+</html>
