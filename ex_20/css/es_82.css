@@ -1,0 +1,22 @@
+section {
+    border: 2px solid mediumslateblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.blue {
+    color: #00f;
+    font-weight: bold;
+}
+.red {
+    color: #f00;
+    font-weight: bold;
+}
+.green {
+    color: green;
+    font-weight: bold;
+}
+.aqua {
+    color: aqua;
+    font-weight: bold;
+}
