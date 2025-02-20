@@ -25,6 +25,7 @@ const node8 = document.createTextNode('<추가>This is new');
 para8.appendChild(node8);
 const element8 = document.getElementById('div8');
 element8.appendChild(para8);
+para8.classList.add('red');
 
 //sec9
 const para9 = document.createElement('p');
@@ -33,6 +34,7 @@ para9.appendChild(node9);
 const element9 = document.getElementById('div9');
 const child9 = document.getElementById('p9_1');
 element9.insertBefore(para9, child9);
+para9.classList.add('red');
 
 //sec10
 function btn10 () {
@@ -86,8 +88,10 @@ function btn17 () {
 }
 
 //sec18
-document.getElementById('demo18').innerHTML = "Browser inner window width: " + '<span class = "red">' + window.innerWidth + '</span>' + "px<br>" +
-"Browser inner window height: " +  '<span class = "red">' + window.innerWidth + '</span>' + "px";
+document.getElementById('demo18').innerHTML = "Browser inner window width: " + '<span class = "red">' + window.innerWidth + '</span>' + " px<br>" +
+"Browser inner window height: " +  '<span class = "red">' + window.innerHeight + '</span>' + " px" + "<br>" +
+"Browser outer window height: " +  '<span class = "red">' + window.outerWidth + '</span>' + " px" + "<br>" + 
+"Browser outer window height: " +  '<span class = "red">' + window.outerHeight + '</span>' + " px";
 
 //sec19
 document.getElementById("demo19").innerHTML = "Screen width is " + '<span class = "red">' + screen.width + '</span>';
