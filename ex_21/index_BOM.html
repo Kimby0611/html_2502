@@ -146,7 +146,53 @@
         <p id="demo19"></p>
     </section>
     
-    <section id="sec20"></section>
+    <section id="sec20">
+        <h1>프롬프트</h1>
+        <h2>JavaScript Prompt</h2>
+        <button onclick="btn20()">Try it</button>
+        <p id="demo20"></p>
+    </section>
+    
+    <section id="sec21">
+        <h1>줄바꿈(\n)</h1>
+        <h2>JavaScript</h2>
+        <p>Line-breaks in a popup box.</p>
+        <button onclick="alert('Hello\nHow are you?')">Try it</button>
+    </section>
+    
+    <section id="sec22">
+        <h1>3초 후에 나옵니다.</h1>
+        <h2>JavaScript Timing</h2>
+        <p>Click "Try it". Wait 3 seconds, and the page will alert "Hello".</p>
+        <button onclick="setTimeout(btn22, 3000);">Try it</button>
+    </section>
+    
+    <section id="sec23">
+        <h1>3초후 나오기 - 중지버튼</h1>
+        <h2>JavaScript</h2>
+        <p>Click "Try it". Wait 3 seconds. The page will alert "Hello".</p>
+        <p>Click "Stop" to prevent the first function to execute.</p>
+        <p>(You must click "Stop" before the 3 seconds are up.)</p>
+        <!-- onclick = "버튼 = setTimeout(버튼 작용될 함수, 3000)" -->
+        <!-- onclick = clearTimeout(버튼) -->
+        <button onclick="stop = setTimeout(btn23, 3000)">Try it</button>
+        <button onclick="clearTimeout(stop)">Stop it</button>
+    </section>
+    
+    <section id="sec24">
+        <h1>setInterval() 메서드</h1>
+        <h2>JavaScript Timing</h2>
+        <p>A script on this page starts this clock: </p>
+        <p id="demo24"></p>
+    </section>
+    
+    <section id="sec25">
+        <h1>clearInterval()로 시간 멈추기</h1>
+        <h2>JavaScript Timing</h2>
+        <p>A script on this page starts this clock: </p>
+        <p id="demo25"></p>
+        <button onclick="clearInterval(btn25)">Stop time</button>
+    </section>
     
     <script src="./js/index_BOM.js"></script>
 </body>

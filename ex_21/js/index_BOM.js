@@ -19,6 +19,16 @@ const demo17 = document.querySelector('#sec17 .demo');
 const demo18 = document.querySelector('#sec18 .demo');
 const demo19 = document.querySelector('#sec19 .demo');
 const demo20 = document.querySelector('#sec20 .demo');
+const demo22 = document.querySelector('#sec22 .demo');
+const demo23 = document.querySelector('#sec23 .demo');
+const demo24 = document.querySelector('#sec24 .demo');
+const demo25 = document.querySelector('#sec25 .demo');
+const demo26 = document.querySelector('#sec26 .demo');
+const demo27 = document.querySelector('#sec27 .demo');
+const demo28 = document.querySelector('#sec28 .demo');
+const demo29 = document.querySelector('#sec29 .demo');
+const demo30 = document.querySelector('#sec30 .demo');
+const demo31 = document.querySelector('#sec31 .demo');
 var br = '<br>';
 
 //sec1
@@ -87,11 +97,49 @@ function btn18() {
 
 //sec19
 function myFunction() {
-    var txt;
+    var txt19;
     if (confirm("Press a button!")) {
-      txt = "You pressed OK!";
+      txt19 = "You pressed OK!";
     } else {
-      txt = "You pressed Cancel!";
+      txt19 = "You pressed Cancel!";
     }
-    document.getElementById("demo19").innerHTML = txt;
+    document.getElementById("demo19").innerHTML = txt19;
   }
+
+//sec20
+function btn20 () {
+  let text20;
+  let person20 = prompt("Please enter your name: ", "Harry Potter");
+  if (person20 == null || person == "") {
+    text20 = "User cancelled the prompt.";
+  } else {
+    text20 = "Hello" + person + '! How are you today?';
+  }
+  document.getElementById('demo20').innerHTML = text20;
+}
+
+//sec22
+function btn22() {
+  alert('Hello');
+}
+
+//sec23
+function btn23 () {
+  alert("Hello");
+}
+
+//sec24
+setInterval(myTimer24, 1000);
+function myTimer24 () {
+  const d24 = new Date();
+  document.getElementById('demo24').innerHTML = d24.toLocaleTimeString();
+  // 한국 형식 console.log(date.toLocaleTimeString('ko-KR')); 
+  // 미국 형식 console.log(date.toLocaleTimeString('en-US'));
+}
+
+//sec25
+let btn25 = setInterval(myTimer25, 1000);
+function myTimer25 () {
+  const d25 = new Date();
+  document.getElementById('demo25').innerHTML = d25.toLocaleTimeString();
+}
