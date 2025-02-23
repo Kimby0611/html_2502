@@ -120,7 +120,7 @@ function btn23 () {
 setInterval(myTimer24, 1000);
 function myTimer24 () {
   const d24 = new Date();
-  document.getElementById('demo24').innerHTML = d24.toLocaleTimeString();
+  document.getElementById('demo24').innerHTML = '<span class = "red">' + d24.toLocaleTimeString() + '</span>';
   // 한국 형식 console.log(date.toLocaleTimeString('ko-KR')); 
   // 미국 형식 console.log(date.toLocaleTimeString('en-US'));
 }
@@ -129,5 +129,5 @@ function myTimer24 () {
 let btn25 = setInterval(myTimer25, 1000);
 function myTimer25 () {
   const d25 = new Date();
-  document.getElementById('demo25').innerHTML = d25.toLocaleTimeString();
+  document.getElementById('demo25').innerHTML = '<span class = "red">' + d25.toLocaleTimeString() + '</span>';
 }
