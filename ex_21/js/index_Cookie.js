@@ -29,18 +29,25 @@ function setCookie(cname,cvalue,exdays) {
 }
 
 function getCookie(cname) {
+    //name = 'cname='
     let name = cname + "=";
+    //cookie값을 디코딩함
     let decodedCookie = decodeURIComponent(document.cookie);
+    //세미콜론으로 쿠키를 배열로 분리
     let ca = decodedCookie.split(';');
+    //각 쿠기 문자열을 하나씩 처리
     for(let i = 0; i < ca.length; i++) {
         let c = ca[i];
+        //공백 제거
         while (c.charAt(0) == ' ') {
             c = c.substring(1);
         }
+        //찾고자 하는 쿠키인지 확인
         if (c.indexOf(name) == 0) {
             return c.substring(name.length, c.length);
         }
     }
+    //찾치 못하면 빈 문자열 반환
     return "";
 }
 

@@ -4,8 +4,6 @@ const demo2 = document.querySelector('#sec2 .demo');
 const demo3 = document.querySelector('#sec3 .demo');
 const demo4 = document.querySelector('#sec4 .demo');
 const demo5 = document.querySelector('#sec5 .demo');
-const demo6 = document.querySelector('#sec6 .demo');
-const demo7 = document.querySelector('#sec7 .demo');
 const demo8 = document.querySelector('#sec8 .demo');
 const demo9 = document.querySelector('#sec9 .demo');
 const demo10 = document.querySelector('#sec10 .demo');
@@ -16,19 +14,9 @@ const demo14 = document.querySelector('#sec14 .demo');
 const demo15 = document.querySelector('#sec15 .demo');
 const demo16 = document.querySelector('#sec16 .demo');
 const demo17 = document.querySelector('#sec17 .demo');
-const demo18 = document.querySelector('#sec18 .demo');
 const demo19 = document.querySelector('#sec19 .demo');
 const demo20 = document.querySelector('#sec20 .demo');
-const demo22 = document.querySelector('#sec22 .demo');
-const demo23 = document.querySelector('#sec23 .demo');
-const demo24 = document.querySelector('#sec24 .demo');
-const demo25 = document.querySelector('#sec25 .demo');
-const demo26 = document.querySelector('#sec26 .demo');
-const demo27 = document.querySelector('#sec27 .demo');
-const demo28 = document.querySelector('#sec28 .demo');
-const demo29 = document.querySelector('#sec29 .demo');
-const demo30 = document.querySelector('#sec30 .demo');
-const demo31 = document.querySelector('#sec31 .demo');
+
 var br = '<br>';
 
 //sec1
