@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(221, 241, 163);
+}
+
+section {
+    border: 2px solid rgb(25, 192, 66);
+    background-color: rgb(217, 241, 128);
+    border-radius: 20px;
+    box-shadow: 3px -2px  10px black;
+    padding: 10px;
+    margin: 20px;
+}
