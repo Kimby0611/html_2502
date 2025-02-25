@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ㅏㅐ">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 
     <section class="sec1">
         <h2>JavaScript addEventListener()</h2>
-        <h3> 클릭 이벤트 리스너(id부여) >> addEventListener("click", 함수명)</h3>
+        <h3> 클릭 이벤트 리스너(id부여) >> addEventListener("click", 함수명)(이너함수)</h3>
         <p>This example uses the addEventListener() method to attach a click event to a button</p>
         <button id="mybtn1">Try it</button>
         <p id="demo1"></p>
@@ -19,7 +19,7 @@
 
     <section class="sec2">
         <h2>JavaScript addEventListener()</h2>
-         <h3>addEventListener에 함수 같이 선언하기</h3>
+         <h3>(익명 이너 함수)(function() >> 익명함수(no name function))</h3>
         <p>This example uses the addEventListener() method to attach a click event to a button.</p>
         <button id="mybtn2">Try it</button>
     </section>
@@ -93,7 +93,37 @@
         <p id="demo9"></p>
     </section>
 
+    <section class="sec10">
+        <h2>input - onblur</h2>
+        Enter your name: <input type="text" id="fname10" onblur="myFunction10()">
+        <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+    </section>
+    
+    <section class="sec11">
+        <h2>input - onchange >> onblur과의 차이점은 값이 변할때만 바뀐다는 점</h2>
+        Enter your name: <input type="text" id="fname11" onchange="myFunction11()">
+        <p>When you leave the input field, a function transforms the input to upper case.</p>
+    </section>
+    
+    <section class="sec12">
 
+    </section>
+    
+    <section class="sec13"></section>
+    
+    <section class="sec14"></section>
+    
+    <section class="sec15"></section>
+    
+    <section class="sec16"></section>
+    
+    <section class="sec17"></section>
+    
+    <section class="sec18"></section>
+    
+    <section class="sec19"></section>
+    
+    <section class="sec20"></section>
     
     <script src="./js/indexEventListener.js"></script>
 </body>

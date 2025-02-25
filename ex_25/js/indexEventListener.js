@@ -86,3 +86,14 @@ function removeHandler () {
     document.getElementById("demo9").innerHTML = randomNumber + '<br>addEventListener()메서드가 제거되었습니다.';
 }
 
+//sec10
+function myFunction10 () {
+    const x10 = document.getElementById('fname10');
+    x10.value = x10.value.toUpperCase();
+}
+
+//sec11
+function myFunction11 () {
+    const x11 = document.getElementById('fname11');
+    x11.value = x11.value.toUpperCase();
+}
