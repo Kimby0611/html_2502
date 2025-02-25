@@ -1,0 +1,26 @@
+section {
+    border: 1px solid purple;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(241, 119, 156, 0.2);
+    box-shadow: 3px 3px 3px red;
+}
+#div8_1, #div8_2 {
+    background-color: coral;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+  
+#myP1, #myP2 {
+    background-color: white; 
+    font-size: 20px;
+    border: 1px solid;
+    padding: 20px;
+}
+#div9{
+    background-color: coral;
+    border: 1px solid;
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+  }

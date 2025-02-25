@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ㅏㅐ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제_0225 w3 HTML Events
+    </title>
+    <link rel="stylesheet" href="./css/indexEventListener.css">
+</head>
+<body>
+
+    <section class="sec1">
+        <h2>JavaScript addEventListener()</h2>
+        <h3> 클릭 이벤트 리스너(id부여) >> addEventListener("click", 함수명)</h3>
+        <p>This example uses the addEventListener() method to attach a click event to a button</p>
+        <button id="mybtn1">Try it</button>
+        <p id="demo1"></p>
+    </section>
+
+    <section class="sec2">
+        <h2>JavaScript addEventListener()</h2>
+         <h3>addEventListener에 함수 같이 선언하기</h3>
+        <p>This example uses the addEventListener() method to attach a click event to a button.</p>
+        <button id="mybtn2">Try it</button>
+    </section>
+
+    <section class="sec3">
+        <h2>
+            JavaScript addEventListener() <br>
+        </h2>
+        <p>This example uses the addEventListener() method to excute a function when a user clicks on a button.</p>
+        <button id="mybtn3">Try it</button>
+    </section>
+
+    <section class="sec4">
+        <h2>JavaScript addEventListener()</h2>
+        <h3>변수에 저장, 함수 2개 생성</h3>
+        <p>This example uses the addEventListener() method to add two click events to the same button.</p> 
+        <button id="mybtn4">Try it</button>
+    </section>
+
+    <section class="sec5">
+        <h2>JavaScript addEventListener()</h2>
+        <h3>클릭, 마우스오버, 마우스아웃 함수 만들기</h3>
+        <p>This example uses the addEventListener() method to add many events on the same button.</p> 
+        <button id="mybtn5">Try it</button>
+        <p id="demo5"></p>
+    </section>
+
+    <section class="sec6">
+        <h2>JavaScript addEventListener()</h2>
+        <h3>window resize 시 발생</h3>
+        <p>This exapmle uses the addEventListener() method on thd window object.</p>
+        <p>Try resizeing this browser window to trigger the "resize" event handler.</p>
+        <p id="demo6"></p>
+    </section>
+
+    <section class="sec7">
+        <h2>JavaScript addEventListener()</h2>
+        <h3>매개변수 전달</h3>
+        <p>This example demonstrates how to pass parameter values when using the addEventListener() method.</p>
+        <p>Click the button to perform a calculation.</p>
+        <button id="mybtn7">Try it</button>
+        <p id="demo7"></p>
+    </section>
+
+    <section class="sec8">
+        <h2>JavaScript addEventListener</h2>
+        <h3>버블링과 캡처링</h3>
+        <h4>버블링은 false(default)안쪽에서 바깥쪽으로 처리, 캡처링은 true이며 버블링과 반대로 바깥쪽부터 안쪽으로 처리</h4>
+        <div id="div8_1">
+            <h2>Bubbling: </h2>
+            <p id="myP1">Click me!</p>
+        </div>
+        <div id="div8_2">
+            <h2>Capturing: </h2>
+            <p id="myP2">Click me!</p>
+        </div>
+    </section>
+
+    <section class="sec9">
+        <h2>JavaScript removeEventListener()</h2>
+        <h3>removeEventListener()메서드</h3>
+        <h4>removeEventListener()는 addEventListener()로 연결된 이벤트 핸들러 제거</h4>
+        <div id="div9">
+            <p>
+                This div element has an onmousemove event handler that displays a random number
+                every time you move your mouse inside this orange field.
+            </p>
+            <p>Click the button to remove the div's event handler.</p>
+            <button onclick="removeHandler()" id="btn9">Remove</button>
+        </div>
+        <p id="demo9"></p>
+    </section>
+
+
+    
+    <script src="./js/indexEventListener.js"></script>
+</body>
+</html>
