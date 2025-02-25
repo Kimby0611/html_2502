@@ -60,16 +60,21 @@ function myFunction7(a, b) {
 }
 
 //sec8
-document.getElementById("myP1").addEventListener("click", function () {
+document.getElementById("myP1").addEventListener("click", function (e) {
+    //버블링 중단
+    // e.stopPropagation();
     alert("You clicked the white element!");
 }, false);
 document.getElementById("div8_1").addEventListener("click", function () {
+    
     alert("You clicked the orange element!");
 }, false);
 document.getElementById("myP2").addEventListener("click", function() {
     alert("You clicked the white element!");
 }, true);
-document.getElementById("div8_2").addEventListener("click", function () {
+document.getElementById("div8_2").addEventListener("click", function (e) {
+    //캡처링 중단
+    //e.stopImmediatePropagation();
     alert("You clicked the orange element!");
 }, true);
 
