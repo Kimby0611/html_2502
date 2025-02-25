@@ -1,0 +1,326 @@
+section:not(.sec1_1, .sec3_1, .sec5_1, .sec6_1, .sec7 section) {
+    border: 1px solid purple;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(241, 119, 156, 0.2);
+    box-shadow: 3px 3px 3px red;
+}
+
+/* sec2 */
+.sec2 div{
+    width: 960px;
+    margin: auto;
+}
+.sec2 header {
+    position: relative;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    height: 280px;
+    background-position: left top;
+    width: 100%;
+}
+.sec2 h2 {
+	position:absolute;
+	right:20px;
+	bottom:70px;
+	font-size:3em;		
+	color:#FFC;	
+	text-shadow:1px 2px 2px #000;		
+}
+.sec2 h3 {
+	position:absolute;
+	right:20px;
+	bottom:30px;
+	font-size:2em;
+	color:#FF0;	
+	text-shadow:0px 1px 1px #000;	
+}
+.nav2 {
+	position:relative;
+	background:#271717;
+	margin-top:-15px;
+	width:960px;
+	height:60px;
+}
+.nav2 ul li {
+	display:inline;
+	font-size:15px;
+}
+.nav2 li {
+    gap: 50px;
+    margin: 0 30px;   
+}
+.nav2 ul {
+	list-style: none; 
+	height:40px;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+.nav2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px; 
+    
+}
+.nav2 a:hover, .nav2 a:active, .nav2 a:focus {
+    text-shadow:0px 2px 2px #000;
+    color:#FC0;
+}
+
+/* sec3 */
+.sec3 {
+    height: 700px;
+}
+.sec3 div {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.sec3 article {
+    display: block;
+    width: 720px;
+}
+.sec3_1 {
+    float: left;
+    width: 700px;
+}
+.aside3 {
+    float: right;
+    width: 200px;
+    height: 550px;
+    background-color: #DFD;
+    padding: 20px;
+}
+
+/* sec4 */
+/* float 주면 값을 못잡아서 부모 section의 height가 잡히지 않아서 밖으로 탈출한다. */
+/* .content4 {
+    float: left;
+} */
+
+/* sec5 */
+.sec5 {
+    height: 800px;
+}
+.sec5 div {
+    width: 960px;
+    margin: 0 auto;
+}
+.sec5 article {
+    float: left;
+    width: 700px;
+}
+.aside5 {
+    float: right;
+    width: 200px;
+    height: 550px;
+    padding: 20px;
+    background-color: #DFD;
+}
+.sec5 footer {
+    background-color: black;
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+    font-size: 10px;
+}
+
+/* sec6 */
+.sec6 {
+    font-family: "맑은 고딕", "고딕", "굴림";
+    height: 1000px;
+}
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+.sec6 header {
+    background-image: url(../images/nav2.png);
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #F46075;
+}
+.sec6 nav {
+    float: left;
+    width: 70%;
+    margin-top: 50px;
+}
+.sec6 li {
+    display: inline;
+    margin-right: 30px;
+    float: left;
+}
+.sec6 a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.sec6 article {
+    float: left;
+    border: 1px dotted gray;
+    width: 250px;
+    height: 220px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 13px;
+}
+.sec6_1 {
+    float: left;
+    width: 580px;
+    padding: 5px;
+}
+.sec6 aside {
+    float: right;
+    width: 200px;
+    border: 2px solid green;
+    height: auto;
+    margin-top: 80px;
+}
+.sec6 footer {
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 800px;
+}
+.sec6 p {
+    line-height: 20px;
+    font-size: 12px;
+}
+.sec6 footer p {
+    padding: 20px;
+}
+/* 경로 설정 실패 첫번째 자식이 아니다 */
+/* .sec6 article:nth-child(1):hover {
+    background-color: #cf9;
+    border: 1px solid green;
+} */
+.a1:hover {
+    background-color: #cf9;
+    border: 1px solid green;
+}
+.a2:hover {
+    background-color: #a2d0ff;
+    border: 1px solid blue;
+}
+.a3:hover {
+    background-color: #ebcbfe;
+    border: 1px solid purple;
+}
+.a4:hover {
+    background-color: #fc3;
+    border: 1px solid red;
+}
+.a1, .a2, .a3, .a4 {
+    transition: all 2s ease;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;
+}
+.sec6 img {
+    width: 170px;
+    height: auto;
+    padding: 10px;
+    display: block;
+    transition: all 2s ease;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;
+}
+.sec6 img:hover {
+    /* 이미지만 커지기 */
+    /* transform: scale(1.5); */
+    /* 레이아웃 전체에 영향 */
+    width: 250px;
+}
+/* sec7 */
+.sec7 header {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #069;
+	padding: 10px;
+	overflow: hidden;
+}
+.sec7 header h1{
+	width:40%;
+	float:left;	
+	color:#ffffff;
+}
+
+.sec7 header nav {
+	width:60%;	
+}
+
+.sec7 nav ul{
+	list-style-type:none;	
+}
+
+.sec7 nav ul li{
+	display: inline;
+	/* float: left; */
+	margin: 15px;
+}
+
+
+.sec7 nav ul li a{
+	color:white;
+	text-decoration:none;	
+}
+.sec7 p {
+	font-size:15px;
+	line-height:20px;
+}
+
+.sec7 h1{
+	font-size:2em;	
+}
+
+.sec7 article{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	border:5px solid #333;
+	padding:5px;
+    overflow: hidden;
+    /* overflow: hidden은 
+    내용을 숨기는 역할, float 된 요소를 포함하는 역할 (clearfix와 비슷한 효과) 
+    두가지의 역할이 있다 clearfix와 같은 역할
+    */
+}
+.sec7 article section{
+	width: 30%;
+    height: 650px;
+    float: left;
+    margin: 5px;
+	border:1px dotted #333;
+	padding:5px;
+}
+.sec7 aside{
+	clear:both;
+	margin:0 auto;
+	width:80%;
+	height:auto;
+	padding:10px;
+	background-color:#99cc33;
+}
+.sec7 footer{
+	clear:both;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;	
+	margin-top:0;
+	padding:10px;
+	background-color:#333;
+	color:white;	
+	text-align:center;
+}
+.sec7 section h3 {
+    background: url(../images/bg-note.png) no-repeat left center;
+    padding-left: 30px;
+}
