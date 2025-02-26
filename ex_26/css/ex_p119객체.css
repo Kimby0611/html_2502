@@ -1,0 +1,9 @@
+section {
+    border: 1px solid rgb(228, 172, 19);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(228, 172, 19, 0.4);
+    box-shadow: 3px -3px 3px rgb(240, 185, 36),
+                5px 5px 30px rgb(233, 131, 84);
+}
