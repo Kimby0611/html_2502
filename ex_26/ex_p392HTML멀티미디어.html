@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/ex_p392HTML멀티미디어.css">
+</head>
+<body>
+    <section class="sec1">
+        <h1>플레이어와 함께 오디오 삽입하기</h1>
+        <h3>audio - controls</h3>
+        <div>
+            <audio src="./media/bgsound.mp3" controls></audio>
+            <img src="./images/bg2.jpg" alt="">
+        </div>
+    </section>
+    
+    <section class="sec2">
+        <h1>플레이어 표시 없이 배경 음악 삽입하기</h1>
+        <h3>audio - autoplay, loop</h3>
+        <div>
+            <audio src="./media/bgsound.mp3" autoplay loop></audio>
+            <img src="./images/bg2.jpg" alt="">
+        </div>
+    </section>
+    
+    <section class="sec3">
+        <h1>컨트롤 막대가 있는 비디오 삽입하기</h1>
+        <h3>video - controls</h3>
+        <div>
+            <video src="./media/Painting.mp4" controls></video>
+        </div>
+    </section>
+    
+    <section class="sec4">
+        <h1>컨트롤 막대가 없는 비디오 삽입하기</h1>
+        <div>
+            <video src="./media/Painting.mp4"></video>
+        </div>
+    </section>
+    
+    <section class="sec5">
+        <h1>여러 형식의 비디오 파일 함께 삽입히가</h1>
+        <div>
+            <video width="400" height="250" controls>
+                <source src="./media/Painting.mp4" type="video/mp4">
+                <source src="./media/Painting.webm" type="video/webm">
+                <source src="./media/Painting.ogv" type="video/ogv">
+                <!-- HTML5를 지원하지 않는 이전 브라우저 -->
+                이 영상을 보기 위해서는 HTML5를 지원하는 브라우저가 필요합니다.
+                <object data="./media/Painting.swf" type="application/x-shockwave-flash"></object>
+            </video>
+        </div>
+    </section>
+    
+    <section class="sec6">
+        <h1>audio와 video의 속성</h1>
+        <p>width,height >> css와 동일<br>controls >> 컨트롤 막대 표시<br>preload >> 파일 다운로드 여부(none > 미리 다운x 사용자 클릭시 다운, metadata > 메타 정보만 다운, auto > 웹 로드 시 바로 다운)<br>
+        muted >> 소리x 화면만<br>autoplay >> 자동재생<br>loop >> 반복 재생<br>poster >> 문제 상황표시</p>
+    </section>
+    
+    <section class="sec7">
+        <h1>웹 문서에 멀티미디어 파일 넣기</h1>
+        <h2> 밤 하늘을 수놓는 불꽃</h2>
+        <video controls muted autoplay>
+            <source src="./media/Fireworks.mp4" type="video/mp4">
+            <source src="./media/Fireworks.webm" type="video/webm">
+            이 영상을 보기 위해서는 HTML5 를 지원하는 브라우저가 필요합니다.
+        </video>
+    </section>
+    
+    <section class="sec8">
+        <h1>비디오 파일에 자막 파일 연결하기</h1>
+        <h3>track사용</h3>
+        <div>
+            <video controls>
+                <source src="./media/Painting.mp4" type="video/mp4">
+                <source src="./media/Painting.webm" type="video/webm">
+                <track src="./media/Painting.vtt" srclang="lo" label="Korean" default>
+            </video>
+        </div>
+    </section>
+    
+    <section class="sec9">
+        <h1>1분 복습</h1>
+        <div>
+            <video controls autoplay width="400" height="250">
+                <source src="./media/bali.mp4">
+            </video>
+        </div>
+    </section>
+    
+    <section class="sec10">
+        <h1>비디오 캡션 메이커로 자막 쉽게 만들기</h1>
+        <div>
+            <video controls>
+                <source src="./media/bali.mp4" type="video/mp4">
+                <source src="./media/bali.webm" type="video/webm">
+            </video>
+        </div>
+    </section>
+    
+    <section class="sec11">
+        <h1>동영상으로 홈페이지 대문 만들기</h1>
+		<video src="./media/flame.mp4" autoplay loop muted poster="./images/flame.jpg" id="bg"></video>
+		<div id="container">
+			<h2>사람을 구체적으로 도와주는 책</h2>
+			<h1><a href="http://www.easyspub.co.kr" target="_blank">이지스퍼블리싱</a></h1>				
+		</div>
+    </section>
+    
+    <section class="sec12">
+        <h1>연습문제 1</h1>
+        <div>
+            <h2>오디오 재생하기</h2> 
+            <video src="./media/bgsound2.mp3" controls height="50" width="300"></video>
+        </div>
+
+    </section>
+    
+    <section class="sec13">
+        <h1>연습문제 2</h1>
+        <div id="container12">
+            <h1>SUMMER BEACH</h1>
+            <video controls width="400" height="220">
+                <source src="./media/Beach.mp4" type="video/mp4">
+                <source src="./media/Beach.webm" type="video/webm">
+            </video>
+          </div>
+    </section>
+
+    <section class="sec14">
+        <h1>비디오 캡션 메이커</h1>
+
+    </section>
+</body>
+</html>
