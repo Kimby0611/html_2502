@@ -1,0 +1,8 @@
+section {
+    border: 2px dotted black;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(139, 139, 2, 0.3);
+    box-shadow: 15px -10px 2px lightgreen,
+                17px -13px 5px lightblue;
+}
