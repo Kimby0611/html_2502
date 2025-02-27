@@ -73,6 +73,9 @@ document.getElementById("p5").innerHTML += result12_2;
 
 //sec6
 var menu = ["짜장면", "돈까스", "김치찌개", "회덮밥"];
-var menuNum = Math.floor(Math.random() * menu.length);
+var random = Math.random();
+var menuNum = Math.floor(random * menu.length);
+console.log(random * menu.length);
+console.log(random);
 var result13 = menu[menuNum];
 document.getElementById("p6").innerHTML = result13;
