@@ -238,7 +238,8 @@ input:checked + span {
 
 /* sec19 */
 .sec19 img:hover {
-    border: 5px solid black;
+    /* border: 5px solid black; */
+    outline: 5px solid black;
 }
 
 /* sec20 */
