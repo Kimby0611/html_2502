@@ -1,0 +1,449 @@
+/* sec1 */
+.movex1:hover {
+    transform: translateX(50px);
+}
+.movey1:hover {
+    transform: translateY(20px);
+}
+.movexy1:hover {
+    transform: translate(10px, 20px);
+}
+.origin1 {
+    float: left;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+.sec1 {
+    overflow: hidden;
+}
+
+/* sec2 */
+.scalex2:hover {
+    transform: scaleX(1.2);
+}
+.scaley2:hover {
+    transform: scaleY(1.5);
+}
+.scale2:hover {
+    transform: scale(0.7);
+}
+.origin2 {
+    float: left;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+.sec2 {
+    overflow: hidden;
+}
+
+/* sec3 */
+.rotate1:hover {
+    transform: rotate(20deg);
+}
+.rotate2:hover {
+    transform: rotate(-40deg);
+}
+.origin3 {
+    float: left;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+.sec3 {
+    overflow: hidden;
+}
+
+/* sec4 */
+.rotatex:hover {
+    transform: rotateX(45deg);
+}
+.rotatey:hover {
+    transform: rotateY(45deg);
+}
+.rotatez:hover {
+    transform: rotateZ(45deg);
+}
+.rotatexyz:hover {
+    transform: rotate3D(2.5, 1.2, -1.5, 45deg);
+}
+.origin4 {
+    float: left;
+    margin-left: 100px;
+    perspective: 200px;
+    border: 1px solid black;
+}
+.sec4 {
+    overflow: hidden;
+}
+
+/* sec5 */
+.skewx:hover { transform: skewX(30deg);}
+.skewy:hover { transform: skewY(15deg);}
+.skewxy:hover { transform: skew(-25deg, -15deg);}
+.origin5 {
+    float: left;
+    margin-left: 100px;
+    perspective: 200px;
+    border: 1px solid black;
+}
+.sec5 {
+    overflow: hidden;
+}
+
+/* sec6 */
+.pic:hover {transform: scale(200%);}
+.origin6 {
+    float: left;
+    margin-left: 100px;
+    perspective: 200px;
+}
+.sec6 {
+    overflow: hidden;
+}
+
+/* sec7 */
+.origin7 {
+    float: left;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+.sec7 {
+    overflow: hidden;
+}
+.rose {transform: rotateZ(10deg);}
+.ltop .rose {transform-origin: left top;}
+.rtop .rose {transform-origin: right top;}
+.lbottom .rose {transform-origin: left bottom;}
+.rbottom .rose {transform-origin: right bottom;}
+
+/* sec8 */
+.origin8 {
+    float: left;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+.sec8 {
+    overflow: hidden;
+}
+.rotatex8 img {transform: rotateX(50deg);}
+#pers {perspective: 300px;}
+
+/* sec9 */
+.container {
+    float: left;
+    margin-left: 100px;
+    border: 1px solid black;
+    perspective: 300px;
+}
+.sec9 { overflow: hidden; }
+.box1 {
+    background-color: #82cbd8;
+    transform: rotateY(45deg);
+    width: 200px;
+    height: 200px;
+}
+.box2 {
+    background-color: #0d6097;
+    transform-origin: left top;
+    transform: rotateX(45deg);
+    width: 100%;
+    height: 100%;
+}
+#tr-style1 { transform-style: flat;}
+#tr-style2 { transform-style: preserve-3d;}
+
+/* sec10 */
+.container10 {
+    float: left;
+    margin-left: 100px;
+    border: 1px solid black;
+    perspective: 300px;
+}
+.sec10 { overflow: hidden; }
+.box10 {
+    width: 200px;
+    height: 200px;
+    background: #82cbd8;
+    transform: rotateY(135deg);
+    text-align: center;
+    font-size: 2em;
+}
+#back1 {backface-visibility: hidden;}
+#back2 {backface-visibility: visible;}
+
+/* sec11 */
+.pic:hover {
+    transform: rotate(30deg);
+    transform-origin: right top;
+}
+.div11 {
+    float: left;
+    margin-left: 100px;
+    border: 1px solid black;
+    perspective: 300px;
+}
+.sec11 { overflow: hidden; }
+
+/* sec12 */
+.div12 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 1px solid black;
+    transition-property: width, height;
+    transition-duration: 2s, 1s;
+}
+.div12:hover {
+    width: 600px;
+    height: 220px;
+}
+/* sec13 */
+.tr13 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    transition-property: background-color, transform, width, height;
+    transition-duration: 2s, 3s;
+    text-align: center;
+}
+.tr13:hover {
+    width: 200px;
+    height: 200px;
+    background-color: #ff6e5f;
+    transform: rotate(180deg);
+}
+
+/* sec14 */
+#delay {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    text-align: center;
+    transition-duration: 3s;
+}
+.ex:hover .box {
+    transform: rotate(780deg);
+    margin-left: 420px;
+}
+#no-delay {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    text-align: center;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+/* sec15 */
+.tr15 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+    transition: 2s ease-in;
+}
+.tr15:hover {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6e5f;
+    transform: rotate(270deg);
+}
+
+/* sec16 */
+.sec16 div {
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    background: #0094ff;
+}
+/* .box16 {
+    transition: 2s ease-in;
+}
+.box16:hover {
+    transform: scale(2) perspective(120px) rotateX(720deg);
+} */
+@keyframes rrrr {
+    from {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotateX(720deg);
+    }
+}
+
+.box16:hover {
+    animation: rrrr 1s linear infinite;
+}
+
+/* sec17 */
+.rect {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: background 3s;
+}
+.rect:hover {
+    background: yellow;
+}
+
+/* sec18 */
+.div18 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.div18:hover {
+    animation-name: change-bg;
+    animation-duration: 3s;
+}
+@keyframes change-bg {
+    from {
+        background-color: blue;
+        border: 1px solid black;
+    }
+    to {
+        background-color: #a5d6ff;
+        border: 1px solid blue;
+        border-radius: 50%;
+    }
+}
+
+/* sec19 */
+.sec19 div {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.sec19 {
+    overflow: hidden;
+}
+#box19_1 {
+    background-color: #4cff00;
+    border: 1px solid black;
+}
+#box19_1:hover {
+    animation-name: shape;
+    animation-duration: 3s;
+}
+@keyframes shape {
+    from {
+        border: 1px solid black;
+    }
+    to {
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+}
+#box19_2 {
+    background-color: #8f06b0;
+    border: 1px solid black;
+}
+#box19_2:hover {
+    animation-name: rotate;
+    animation-duration: 3s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(45deg);
+    }
+}
+
+/* sec20 */
+.box20 {
+    margin: 50px, 0, 0, 100px;
+    padding: 20px;
+    height: 60px;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes moving {
+    from {
+        width: 200px;
+        background: #faef7c;
+        opacity: 0.5;
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        width: 400px;
+        background: #ff9400;
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+/* sec21 */
+.box21 {
+    width: 60px;
+    height: 60px;
+    margin: 60px;
+    animation: rotate21 1.5s infinite, background21 1.5s infinite alternate;
+}
+@keyframes rotate21 {
+    from {transform: perspective(120px) rotateX(0deg) rotateY(0deg);}
+    50%{transform: perspective(120px) rotateX(-180deg) rotateY(0deg);}
+    to {transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);}    
+}
+@keyframes background21 {
+    from {background: red;}
+    50% {background: green;}
+    to {background: blue;}
+}
+
+/* sec22 */
+.sec22 div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid darkgreen;
+    background: #b6ff00;
+    animation: ani 3s ease-in infinite;
+}
+@keyframes ani {
+    from {width: 50px;}
+    to {width: 300px;}
+}
+
+/* sec23 */
+.div23 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: green;
+}
+.div23:hover {
+    transition: 1s;
+    background-color: yellow;
+}
+
+/* sec24 */
+.div24 {
+    float: left;
+}
+.sec24 {
+    overflow: hidden;
+}
+.img24:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+    transform: rotate(20deg);
+}
+
+/* sec25 */
+.sec25 {
+    height: 700px;
+}
+.img25 {
+    margin-left: 100px;
+}
+.img25:hover {
+    transition: 1s;
+    transform: scale(1.5);
+    transform-origin: left top;
+    transition: all 1s;
+    box-shadow: 5px 5px 3px black;
+}

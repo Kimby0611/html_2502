@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제_0228 교재_ p448_ 13.애니메이션</title>
+    <link rel="stylesheet" href="./css/ex_p452애니메이션.css">
+    <link rel="stylesheet" href="./css/border.css">
+</head>
+<body>
+    <section class="sec1">
+        <h1>이미지 이동하기</h1>
+        <div class="origin1">
+            <div class="movex1"><img src="./images/bus.jpg"></div>
+        </div>
+        <div class="origin1">
+            <div class="movey1"><img src="./images/bus.jpg"></div>
+        </div>
+        <div class="origin1">
+            <div class="movexy1"><img src="./images/bus.jpg"></div>
+        </div>
+    </section>
+    
+    <section class="sec2">
+        <h1>이미지 확대/축소하기</h1>
+        <div class="origin2">
+            <div class="scalex2"><img src="./images/fruit.jpg"></div>
+        </div>
+        <div class="origin2">
+            <div class="scaley2"><img src="./images/fruit.jpg"></div>
+        </div>
+        <div class="origin2">
+            <div class="scale2"><img src="./images/fruit.jpg"></div>
+        </div>
+    </section>
+    
+    <section class="sec3">
+        <h1>이미지 2차원 회전하기</h1>
+        <div class="origin3">
+            <div class="rotate1"><img src="./images/fruit.jpg"></div>
+        </div>
+        <div class="origin3">
+            <div class="rotate2"><img src="./images/fruit.jpg"></div>
+        </div>
+    </section>
+    
+    <section class="sec4">
+        <h1>이미지 3차원 회전하기</h1>
+        <div class="origin4">
+            <div class="rotatex"><img src="./images/fruit.jpg"></div>
+        </div>
+        <div class="origin4">
+            <div class="rotatey"><img src="./images/fruit.jpg"></div>
+        </div>
+        <div class="origin4">
+            <div class="rotatez"><img src="./images/fruit.jpg"></div>
+        </div>
+        <div class="origin4">
+            <div class="rotatexyz"><img src="./images/fruit.jpg"></div>
+        </div>
+    </section>
+    
+    <section class="sec5">
+        <h1>x축과 y축으로 이미지 왜곡하기</h1>
+        <div class="origin5">
+            <div class="skewx"><img src="./images/rose.jpg"></div>
+        </div>
+        <div class="origin5">
+            <div class="skewy"><img src="./images/rose.jpg"></div>
+        </div>
+        <div class="origin5">
+            <div class="skewxy"><img src="./images/rose.jpg"></div>
+        </div>
+    </section>
+    
+    <section class="sec6">
+        <h1>1분 복습</h1>
+        <img src="./images/sunset.jpg" class="pic">
+    </section>
+    
+    <section class="sec7">
+        <h1>이미지 변형 시작점을 다양하게 지정하기</h1>
+        <div class="origin7">
+            <div class="ltop"><img src="./images/rose.jpg"class="rose"></div>
+        </div>
+        <div class="origin7">
+            <div class="rtop"><img src="./images/rose.jpg"class="rose"></div>
+        </div>
+        <div class="origin7">
+            <div class="lbottom"><img src="./images/rose.jpg"class="rose"></div>
+        </div>
+        <div class="origin7">
+            <div class="rbottom"><img src="./images/rose.jpg"class="rose"></div>
+        </div>
+    </section>
+    
+    <section class="sec8">
+        <h1>이미지 회전하며 원근감 주기</h1>
+        <h4 style="margin-left: 100px;">원본 이미지</h4>
+        <div class="origin8"><img src="./images/sunset.jpg"></div>
+        <div id="no-pers" class="origin8">
+            <div class="rotatex8"><img src="./images/sunset.jpg" alt=""></div>
+        </div>
+        <div class="origin8">
+            <div class="rotatex8" id="pers"><img src="./images/sunset.jpg" alt=""></div>
+        </div>
+    </section>
+    
+    <section class="sec9">
+        <h1>3D변형을 적용하지 않았을 때 vs 적용했을 때</h1>
+        <div class="container">
+            <div class="box1" id="tr-style1">
+                <div class="box2"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box1" id="tr-style2">
+                <div class="box2"></div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sec10">
+        <h1>요소의 뒷면을 표시하지 않을 때 vs 표시할 때</h1>
+        <div class="container10">
+            <div class="box10" id="back1">
+                <h1>BACK</h1>
+            </div>
+        </div>
+        <div class="container10">
+            <div class="box10" id="back2">
+                <h1>BACK</h1>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sec11">
+        <h1>1분 복습</h1>
+        <div class="div11"><img src="./images/rose.jpg" class="pic"></div>
+    </section>
+    
+    <section class="sec12">
+        <h1>정해진 시간 동안 높이와 너비 바꾸기</h1>
+        <div class="div12"></div>
+    </section>
+    
+    <section class="sec13">
+        <h1>정해진 시간 동안 배경 색과 회전, 높이, 너비 바꾸기</h1>
+        <div class="tr13">
+            <h1>!</h1>
+        </div>
+    </section>
+    
+    <section class="sec14">
+        <h1>특정 시간 후에 트랜지션 실행하기</h1>
+        <div class="ex">
+            <div id="delay" class="box">delay</div>
+            <div id="no-delay" class="box">no-delay</div>
+        </div>
+    </section>
+    
+    <section class="sec15">
+        <h1>transition 속성 한꺼번에 표기하기</h1>
+        <div class="tr15"></div>
+    </section>
+    
+    <section class="sec16">
+        <h1>두 개 이상의 트랜지션 연결해서 실행하기</h1>
+        <div class="box16"></div>
+    </section>    
+    
+    <section class="sec17">
+        <h1>1분 복습</h1>
+        <div class="rect"></div>
+    </section>
+    
+    <section class="sec18">
+        <h1>사각형에서 원으로 서서히 바뀌는 애니메이션</h1>
+        <div class="div18"></div>
+    </section>
+    
+    <section class="sec19">
+        <h1>@keyframe을 사용해 실행할 애니메이션 지정하기</h1>
+        <div id="box19_1"></div>
+        <div id="box19_2"></div>
+    </section>
+    
+    <section class="sec20">
+        <h1>무한 반복하는 애니메이션 만들기</h1>
+        <div class="box20">
+            <h3>CSS Animation</h3>
+        </div>
+    </section>
+
+    <section class="sec21">
+        <h1>두 새 이상의 애니메이션 동시에 실행하기</h1>
+        <div class="box21"></div>
+    </section>
+
+    <section class="sec22">
+        <h1>1분 복습</h1>
+        <div class="divani"></div>
+    </section>
+    
+    <section class="sec23">
+        <h1>연습문제1</h1>
+        <div class="div23"></div>
+    </section>
+    
+    <section class="sec24">
+        <h1>연습문제2</h1>
+        <div class="div24"><img src="./images/coffee.jpg" class="img24"></div>
+    </section>
+    
+    <section class="sec25">
+        <h1>연습문제3</h1>
+        <div25><img src="./images/lamp.jpg"class="img25"></div25>
+    </section>
+
+</body>
+</html>
