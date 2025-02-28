@@ -423,6 +423,7 @@
 /* sec24 */
 .div24 {
     float: left;
+    margin-left: 200px;
 }
 .sec24 {
     overflow: hidden;
