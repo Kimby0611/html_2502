@@ -73,15 +73,27 @@ fncD();
 fncE();
 
 //sec4
-function btn4 () {
+//module 타입에서는 전역으로 선언되지 않아 onclick을 못찾는 에러 발생 >> 
+//이벤트리스너로 넣어준다
+const btn4 = document.getElementById('btn4').addEventListener('click', function() {
     var arrColor = ["#ff0", "#6c0", "#fcf", "#cf0", "#39f"];
     var arrNum = Math.floor((Math.random() * arrColor.length));
     var secTag = document.getElementById('sec4');
     console.log(arrColor, arrNum, secTag)
-    secTag
-    .style.backgroundColor = arrColor[arrNum];
-}
-window.btn4 = btn4;
+    secTag.style.backgroundColor = arrColor[arrNum];
+});
+
+//window.btn4로 변수 직접 선언
+// function btn4 () {
+//     var arrColor = ["#ff0", "#6c0", "#fcf", "#cf0", "#39f"];
+//     var arrNum = Math.floor((Math.random() * arrColor.length));
+//     var secTag = document.getElementById('sec4');
+//     console.log(arrColor, arrNum, secTag)
+//     secTag
+//     .style.backgroundColor = arrColor[arrNum];
+// }
+// window.btn4 = btn4;
+
 
 //sec5
 function TestScore (name, kor, eng) {
